@@ -8,20 +8,7 @@ Built for UCB's epilepsy portfolio (Keppra / Briviact) as a proof of concept, bu
 
 ## What it does
 
-You ask a question. It finds the most relevant sections from the FDA label. It passes them to an LLM. You get an answer with the exact source cited.
-
-```
-Q: What is the dose adjustment for renal impairment in levetiracetam?
-
-A: For patients with mild renal impairment (50-80 mL/min): 500-1000mg every 12 hours.
-   Moderate (30-50 mL/min): 250-750mg every 12 hours.
-   Severe (below 30 mL/min): 250-500mg every 12 hours.
-   ESRD on dialysis: 500-1000mg every 24 hours plus a 250-500mg supplemental dose post-dialysis.
-
-   Source: levetiracetam — Section 2.5 Dosage Adjustments in Adult Patients with Renal Impairment
-```
-
-The model cannot make things up — it only answers from what's in the retrieved label sections.
+You ask a question. It finds the most relevant sections from the FDA label. It passes them to an LLM. You get an answer with the exact source cited. The model cannot make things up — it only answers from what's in the retrieved label sections.
 
 ---
 
@@ -35,6 +22,69 @@ The model cannot make things up — it only answers from what's in the retrieved
 | Citation compliance | 20/20 (100%) |
 | Factual accuracy | 19/20 (95%) |
 | Cost per 20 queries | ~$0.03 |
+
+---
+
+## Examples
+
+**1. Dosing — Renal Impairment**
+```
+Q: What is the dose adjustment for renal impairment in levetiracetam?
+
+A: Levetiracetam dosing must be adjusted based on creatinine clearance.
+   Mild (50-80 mL/min): 500-1000mg every 12 hours.
+   Moderate (30-50 mL/min): 250-750mg every 12 hours.
+   Severe (below 30 mL/min): 250-500mg every 12 hours.
+   ESRD on dialysis: 500-1000mg every 24 hours plus a 250-500mg supplemental dose post-dialysis.
+
+   Source: levetiracetam — Section 2.5 Dosage Adjustments in Adult Patients with Renal Impairment
+```
+
+**2. Safety — Pregnancy**
+```
+Q: Can a pregnant woman take levetiracetam?
+
+A: Levetiracetam is not contraindicated in pregnancy but requires careful monitoring.
+   Plasma levels may decrease significantly during the third trimester, and dose adjustments
+   may be required to maintain clinical response. Published data have not established an
+   association with major birth defects or miscarriage. Women taking levetiracetam during
+   pregnancy are encouraged to enroll in the NAAED Pregnancy Registry: 1-888-233-2334.
+
+   Source: levetiracetam — Section 8.1 Pregnancy, Section 5.11 Seizure Control During Pregnancy
+```
+
+**3. Drug Interaction**
+```
+Q: Does brivaracetam interact with rifampin?
+
+A: Yes. Co-administration with rifampin decreases brivaracetam plasma concentrations by
+   approximately 45%, likely due to CYP2C19 induction. Prescribers should increase the
+   brivaracetam dose by up to 100% (i.e., double the dosage) in patients receiving
+   concomitant rifampin treatment.
+
+   Source: brivaracetam — Section 7.1 Rifampin
+```
+
+**4. Cross-drug Comparison**
+```
+Q: Can brivaracetam and levetiracetam be taken together?
+
+A: Yes, they can be taken together, but brivaracetam provided no added therapeutic benefit
+   to levetiracetam when the two drugs were co-administered. In Studies 1 and 2,
+   approximately 20% of patients were on concomitant levetiracetam, and BRIVIACT showed
+   no added benefit in that subgroup.
+
+   Source: brivaracetam — Section 7.4 Levetiracetam
+```
+
+**5. MLR Claim Check**
+```
+Q: Is brivaracetam a controlled substance?
+
+A: Yes. BRIVIACT contains brivaracetam and is listed as a Schedule V controlled substance.
+
+   Source: brivaracetam — Section 9.1 Controlled Substance
+```
 
 ---
 
@@ -136,30 +186,6 @@ The notebook walks through:
 
 ---
 
-## Example questions
-
-**Dosing**
-- "What is the starting dose of levetiracetam for adults?"
-- "What dose adjustment is needed for a patient with severe renal impairment?"
-- "What is the maximum daily dose of brivaracetam for adults?"
-
-**Safety**
-- "What psychiatric side effects should patients be warned about for levetiracetam?"
-- "What dermatological reactions have been reported for brivaracetam?"
-- "Can levetiracetam cause blood pressure changes in young children?"
-
-**Comparative**
-- "How does the suicidal ideation warning compare between the two drugs?"
-- "Can brivaracetam and levetiracetam be taken together?"
-- "Which drug has more clinical trial evidence for pediatric use?"
-
-**Regulatory / MLR**
-- "Can we claim levetiracetam has no drug-drug interactions?"
-- "Is brivaracetam a controlled substance?"
-- "Can a pregnant woman take levetiracetam?"
-
----
-
 ## Adding more drugs
 
 Open `fda_label_parser.ipynb` and add drug names to `DRUG_LIST`:
@@ -168,20 +194,18 @@ Open `fda_label_parser.ipynb` and add drug names to `DRUG_LIST`:
 DRUG_LIST = [
     "levetiracetam",
     "brivaracetam",
-    "cimicoxib",       # add any drug name here
+    "cimicoxib",
     "lacosamide",
 ]
 ```
 
 Drug names must match DailyMed search terms. You can verify availability at [dailymed.nlm.nih.gov](https://dailymed.nlm.nih.gov).
 
-Re-run the parser notebook to generate a new `all_drugs_chunks.json`, then re-run the RAG notebook from Section 5 (embedding) to rebuild the index.
+Re-run the parser notebook to generate a new `all_drugs_chunks.json`, then re-run the RAG notebook from Section 5 to rebuild the index.
 
 ---
 
 ## Label sections included
-
-The parser keeps only clinically meaningful sections and skips packaging, medguide, and product metadata noise.
 
 | LOINC Code | Section |
 |------------|---------|
@@ -201,9 +225,8 @@ The parser keeps only clinically meaningful sections and skips packaging, medgui
 
 ## Data source
 
-All label data comes from [FDA DailyMed](https://dailymed.nlm.nih.gov) — the official FDA drug label database. Data is free, public, and requires no login or license.
+All label data comes from [FDA DailyMed](https://dailymed.nlm.nih.gov) — the official FDA drug label database. Free, public, no login required.
 
-Labels are fetched live via the DailyMed REST API:
 ```
 https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name={drug_name}
 ```
@@ -211,8 +234,6 @@ https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name={drug_name
 ---
 
 ## Cost estimate
-
-Running the full 20-question evaluation costs approximately $0.03 using Amazon Nova Pro. At 1,000 queries per day in production, estimated cost is ~$1.50/day.
 
 | Model | Use case | Approx cost per query |
 |-------|----------|----------------------|
