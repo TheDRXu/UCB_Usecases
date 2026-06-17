@@ -199,26 +199,6 @@ The parser keeps only clinically meaningful sections and skips packaging, medgui
 
 ---
 
-## Known limitations
-
-- **Generic questions without a drug name** produce lower retrieval scores (worst observed: 0.385). Be specific — "What are the psychiatric side effects of levetiracetam?" retrieves better than "What are the psychiatric side effects?"
-- **ChromaDB is local only** — not suitable for multi-user production. Migrate to Amazon OpenSearch for production deployment.
-- **Only 2 drugs indexed** in this POC. Expand `DRUG_LIST` in the parser notebook to add more.
-- **No confidence threshold** — the system will answer even on low-score retrievals. A threshold of 0.5 is recommended for production to return "insufficient information" on poor matches.
-
----
-
-## Roadmap
-
-- [ ] Migrate vector store to Amazon OpenSearch
-- [ ] Add confidence threshold and graceful fallback
-- [ ] Build Streamlit UI for non-technical users
-- [ ] Add audit logging to S3 for GxP compliance
-- [ ] Expand corpus to PubMed for literature Q&A
-- [ ] Hallucination detection via LLM-as-judge
-
----
-
 ## Data source
 
 All label data comes from [FDA DailyMed](https://dailymed.nlm.nih.gov) — the official FDA drug label database. Data is free, public, and requires no login or license.
