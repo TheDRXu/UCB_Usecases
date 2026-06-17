@@ -239,3 +239,10 @@ https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name={drug_name
 |-------|----------|----------------------|
 | amazon.nova-lite-v1:0 | Dev / testing | ~$0.0005 |
 | amazon.nova-pro-v1:0 | Production / demo | ~$0.0015 |
+
+---
+
+## Todo
+
+- [ ] Get more drug data — expand corpus beyond levetiracetam and brivaracetam
+- [ ] Migrate vector store to AWS OpenSearch Service
