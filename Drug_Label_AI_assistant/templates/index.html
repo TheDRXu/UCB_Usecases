@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FDA Drug Label Assistant — UCB</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f0f4f8;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    header {
+      background: #1a3a5c;
+      color: white;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    header .logo {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    header .subtitle {
+      font-size: 13px;
+      opacity: 0.7;
+      margin-left: auto;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4caf50;
+      margin-left: 8px;
+    }
+
+    /* Main layout */
+    main {
+      flex: 1;
+      display: flex;
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 16px;
+      flex-direction: column;
+      gap: 16px;
+      overflow: hidden;
+    }
+
+    /* Chat window */
+    #chat-window {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding-right: 4px;
+    }
+
+    /* Welcome message */
+    .welcome {
+      text-align: center;
+      padding: 40px 24px;
+      color: #64748b;
+    }
+    .welcome h2 {
+      font-size: 22px;
+      color: #1a3a5c;
+      margin-bottom: 8px;
+    }
+    .welcome p {
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 500px;
+      margin: 0 auto 24px;
+    }
+    .example-questions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .example-btn {
+      background: white;
+      border: 1px solid #cbd5e1;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 13px;
+      color: #1a3a5c;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .example-btn:hover {
+      background: #1a3a5c;
+      color: white;
+      border-color: #1a3a5c;
+    }
+
+    /* Message bubbles */
+    .message {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .message.user { align-items: flex-end; }
+    .message.assistant { align-items: flex-start; }
+
+    .bubble {
+      max-width: 80%;
+      padding: 12px 16px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+    .message.user .bubble {
+      background: #1a3a5c;
+      color: white;
+      border-bottom-right-radius: 4px;
+    }
+    .message.assistant .bubble {
+      background: white;
+      color: #1e293b;
+      border-bottom-left-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    /* Metadata row */
+    .meta {
+      font-size: 11px;
+      color: #94a3b8;
+      display: flex;
+      gap: 12px;
+      padding: 0 4px;
+    }
+    .meta .score { color: #10b981; }
+    .meta .score.low { color: #f59e0b; }
+    .meta .score.bad { color: #ef4444; }
+
+    /* Source citation styling */
+    .source-line {
+      font-size: 12px;
+      color: #2563eb;
+      font-style: italic;
+      margin-top: 4px;
+      padding-top: 4px;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    /* Typing indicator */
+    .typing {
+      display: flex;
+      gap: 4px;
+      padding: 14px 16px;
+      background: white;
+      border-radius: 16px;
+      border-bottom-left-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      width: fit-content;
+    }
+    .typing span {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #94a3b8;
+      animation: bounce 1.2s infinite;
+    }
+    .typing span:nth-child(2) { animation-delay: 0.2s; }
+    .typing span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes bounce {
+      0%, 60%, 100% { transform: translateY(0); }
+      30% { transform: translateY(-6px); }
+    }
+
+    /* Input area */
+    .input-area {
+      background: white;
+      border-radius: 16px;
+      padding: 12px 16px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-end;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border: 1px solid #e2e8f0;
+    }
+    #question-input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      resize: none;
+      max-height: 120px;
+      font-family: inherit;
+      line-height: 1.5;
+      color: #1e293b;
+    }
+    #question-input::placeholder { color: #94a3b8; }
+
+    #send-btn {
+      background: #1a3a5c;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 8px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.15s;
+      white-space: nowrap;
+    }
+    #send-btn:hover { background: #2e5f8a; }
+    #send-btn:disabled { background: #94a3b8; cursor: not-allowed; }
+
+    /* Disclaimer */
+    .disclaimer {
+      text-align: center;
+      font-size: 11px;
+      color: #94a3b8;
+      padding: 4px;
+    }
+
+    /* Scrollbar */
+    #chat-window::-webkit-scrollbar { width: 4px; }
+    #chat-window::-webkit-scrollbar-track { background: transparent; }
+    #chat-window::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 2px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">UCB — FDA Drug Label Assistant</div>
+  <div class="status-dot" id="status-dot"></div>
+  <div class="subtitle">Powered by AWS Bedrock</div>
+</header>
+
+<main>
+  <div id="chat-window">
+    <div class="welcome" id="welcome">
+      <h2>Ask anything about our drug labels</h2>
+      <p>All answers are grounded exclusively in FDA-approved label text. Every response includes a citation to the exact source section.</p>
+      <div class="example-questions">
+        <button class="example-btn" onclick="useExample(this)">What is the starting dose of levetiracetam?</button>
+        <button class="example-btn" onclick="useExample(this)">Can brivaracetam be given IV?</button>
+        <button class="example-btn" onclick="useExample(this)">What are the black box warnings for valproate?</button>
+        <button class="example-btn" onclick="useExample(this)">Does topiramate affect oral contraceptives?</button>
+        <button class="example-btn" onclick="useExample(this)">Is levetiracetam safe during pregnancy?</button>
+        <button class="example-btn" onclick="useExample(this)">How do levetiracetam and brivaracetam compare?</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="input-area">
+    <textarea
+      id="question-input"
+      placeholder="Ask a question about any drug label..."
+      rows="1"
+      onkeydown="handleKey(event)"
+      oninput="autoResize(this)"
+    ></textarea>
+    <button id="send-btn" onclick="sendQuestion()">Send</button>
+  </div>
+
+  <div class="disclaimer">
+    Answers are grounded in FDA label text only. Not a substitute for clinical judgment.
+  </div>
+</main>
+
+<script>
+  const chatWindow = document.getElementById("chat-window");
+  const input      = document.getElementById("question-input");
+  const sendBtn    = document.getElementById("send-btn");
+
+  function useExample(btn) {
+    input.value = btn.textContent;
+    autoResize(input);
+    input.focus();
+  }
+
+  function autoResize(el) {
+    el.style.height = "auto";
+    el.style.height = el.scrollHeight + "px";
+  }
+
+  function handleKey(e) {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      sendQuestion();
+    }
+  }
+
+  function scrollToBottom() {
+    chatWindow.scrollTop = chatWindow.scrollHeight;
+  }
+
+  function addMessage(role, text, meta = null) {
+    // Hide welcome on first message
+    const welcome = document.getElementById("welcome");
+    if (welcome) welcome.remove();
+
+    const wrapper = document.createElement("div");
+    wrapper.className = `message ${role}`;
+
+    const bubble = document.createElement("div");
+    bubble.className = "bubble";
+
+    if (role === "assistant" && meta) {
+      // Split source citation from answer
+      const parts   = text.split(/\n(?=Source:)/i);
+      const answer  = parts[0].trim();
+      const source  = parts[1] ? parts[1].trim() : null;
+
+      bubble.textContent = answer;
+
+      if (source) {
+        const sourceLine = document.createElement("div");
+        sourceLine.className = "source-line";
+        sourceLine.textContent = source;
+        bubble.appendChild(sourceLine);
+      }
+
+      wrapper.appendChild(bubble);
+
+      // Metadata row
+      const metaRow  = document.createElement("div");
+      metaRow.className = "meta";
+
+      const scoreClass = meta.top_score >= 0.75 ? "score" : meta.top_score >= 0.55 ? "score low" : "score bad";
+      metaRow.innerHTML = `
+        <span class="${scoreClass}">score: ${meta.top_score}</span>
+        <span>drugs: ${meta.drugs_hit.join(", ")}</span>
+        <span>${meta.elapsed}s</span>
+      `;
+      wrapper.appendChild(metaRow);
+    } else {
+      bubble.textContent = text;
+      wrapper.appendChild(bubble);
+    }
+
+    chatWindow.appendChild(wrapper);
+    scrollToBottom();
+    return wrapper;
+  }
+
+  function addTyping() {
+    const welcome = document.getElementById("welcome");
+    if (welcome) welcome.remove();
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "message assistant";
+    wrapper.id = "typing-indicator";
+    wrapper.innerHTML = `<div class="typing"><span></span><span></span><span></span></div>`;
+    chatWindow.appendChild(wrapper);
+    scrollToBottom();
+  }
+
+  function removeTyping() {
+    const t = document.getElementById("typing-indicator");
+    if (t) t.remove();
+  }
+
+  async function sendQuestion() {
+    const question = input.value.trim();
+    if (!question) return;
+
+    // Disable input
+    sendBtn.disabled = true;
+    input.disabled   = true;
+    input.value      = "";
+    input.style.height = "auto";
+
+    // Show user message
+    addMessage("user", question);
+
+    // Show typing indicator
+    addTyping();
+
+    try {
+      const response = await fetch("/chat", {
+        method : "POST",
+        headers: { "Content-Type": "application/json" },
+        body   : JSON.stringify({ question })
+      });
+
+      const data = await response.json();
+      removeTyping();
+
+      if (data.error) {
+        addMessage("assistant", "Sorry, something went wrong: " + data.error);
+      } else {
+        addMessage("assistant", data.answer, {
+          top_score : data.top_score,
+          drugs_hit : data.drugs_hit,
+          elapsed   : data.elapsed,
+        });
+      }
+    } catch (err) {
+      removeTyping();
+      addMessage("assistant", "Network error — please check the server is running.");
+    }
+
+    // Re-enable input
+    sendBtn.disabled = false;
+    input.disabled   = false;
+    input.focus();
+  }
+
+  // Check health on load
+  fetch("/health")
+    .then(r => r.json())
+    .then(data => {
+      document.getElementById("status-dot").style.background = "#4caf50";
+      console.log(`Connected — ${data.chunks} chunks indexed`);
+    })
+    .catch(() => {
+      document.getElementById("status-dot").style.background = "#ef4444";
+    });
+</script>
+</body>
+</html>

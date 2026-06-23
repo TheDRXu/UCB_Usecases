@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# AWS credentials — never commit these
+.env
+*.env
+aws_credentials.txt
+secrets.txt
+
+# ChromaDB — local vector store, rebuild from chunks
+chroma_db/
+chroma_db_bedrock/
+
+# Data files — too large for git, regenerate from parser
+all_drugs_chunks.json
+levetiracetam_chunks.json
+brivaracetam_chunks.json
+*_chunks.json
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+uvicorn.log
+
+# RAGAS cache
+.ragas/
+
+*.sqlite3
+*.sqlite
+*.db
