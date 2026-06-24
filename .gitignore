@@ -55,3 +55,5 @@ uvicorn.log
 *.sqlite3
 *.sqlite
 *.db
+Supply_Chain_Demand/aed_medicare_partd.csv
+Supply_Chain_Demand/medicare_part_d.csv

@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UCB Supply Chain Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:        #0D1117;
+      --surface:   #161B22;
+      --surface2:  #1C2330;
+      --border:    #30363D;
+      --border2:   #21262D;
+      --text:      #E6EDF3;
+      --muted:     #8B949E;
+      --dim:       #484F58;
+      --accent:    #2EA043;
+      --accent2:   #388BFD;
+      --spike:     #F85149;
+      --drop:      #D29922;
+      --mono:      "IBM Plex Mono", monospace;
+      --sans:      "Inter", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      font-size: 13px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-logo {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      letter-spacing: 0.01em;
+    }
+    .header-logo span { color: var(--accent); }
+    .header-divider { width: 1px; height: 20px; background: var(--border); }
+    .header-label {
+      font-size: 12px;
+      color: var(--muted);
+      font-family: var(--mono);
+    }
+    .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+    .live-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-family: var(--mono);
+      color: var(--accent);
+      background: rgba(46,160,67,0.1);
+      border: 1px solid rgba(46,160,67,0.3);
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+    .live-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+    /* ── Layout ── */
+    .layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      grid-template-rows: auto 1fr;
+      min-height: calc(100vh - 52px);
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 16px 0;
+      grid-row: 1 / 3;
+      overflow-y: auto;
+    }
+    .sidebar-section { margin-bottom: 20px; }
+    .sidebar-label {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--dim);
+      padding: 0 16px;
+      margin-bottom: 6px;
+    }
+    .stat-block {
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .stat-block:last-child { border-bottom: none; }
+    .stat-name { font-size: 12px; color: var(--muted); }
+    .stat-number {
+      font-family: var(--mono);
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .stat-number.spike { color: var(--spike); }
+    .stat-number.drop  { color: var(--drop); }
+    .stat-number.green { color: var(--accent); }
+
+    .drug-item {
+      padding: 6px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .drug-item:hover { background: var(--surface2); }
+    .drug-item.active { background: var(--surface2); border-left: 2px solid var(--accent2); padding-left: 14px; }
+    .drug-name { font-size: 12px; color: var(--muted); }
+    .drug-item.active .drug-name { color: var(--text); }
+    .drug-count {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--dim);
+    }
+
+    /* ── Main content ── */
+    .main { padding: 20px 24px; overflow-y: auto; }
+
+    /* ── Metric row ── */
+    .metric-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .metric-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      position: relative;
+      overflow: hidden;
+    }
+    .metric-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--accent2);
+    }
+    .metric-card.spike::before { background: var(--spike); }
+    .metric-card.drop::before  { background: var(--drop); }
+    .metric-card.green::before { background: var(--accent); }
+    .metric-top {
+      font-size: 11px;
+      font-family: var(--mono);
+      color: var(--dim);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 8px;
+    }
+    .metric-val {
+      font-size: 32px;
+      font-weight: 500;
+      font-family: var(--mono);
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .metric-sub { font-size: 11px; color: var(--muted); }
+
+    /* ── Grid ── */
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    /* ── Panel ── */
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .panel-header {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .panel-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .panel-meta { font-size: 11px; color: var(--muted); font-family: var(--mono); }
+    .panel-body { padding: 12px 16px; }
+
+    /* ── Alert table ── */
+    .alert-table { width: 100%; border-collapse: collapse; }
+    .alert-table th {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--dim);
+      padding: 6px 8px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .alert-row {
+      border-bottom: 1px solid var(--border2);
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .alert-row:hover { background: var(--surface2); }
+    .alert-row td { padding: 9px 8px; vertical-align: middle; }
+    .tag {
+      font-size: 10px;
+      font-family: var(--mono);
+      font-weight: 500;
+      padding: 2px 6px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+    .tag-spike { background: rgba(248,81,73,0.15); color: var(--spike); border: 1px solid rgba(248,81,73,0.3); }
+    .tag-drop  { background: rgba(210,153,34,0.15); color: var(--drop);  border: 1px solid rgba(210,153,34,0.3); }
+    .drug-cell { font-size: 12px; color: var(--text); }
+    .state-cell { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+    .date-cell  { font-family: var(--mono); font-size: 11px; color: var(--dim); }
+    .dev-cell   { font-family: var(--mono); font-size: 12px; font-weight: 500; text-align: right; }
+    .dev-spike-val { color: var(--spike); }
+    .dev-drop-val  { color: var(--drop); }
+    .detail-row { display: none; }
+    .detail-row.open { display: table-row; }
+    .detail-row td {
+      padding: 8px 12px 12px 24px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.6;
+      background: rgba(56,139,253,0.04);
+      border-left: 2px solid var(--accent2);
+    }
+
+    /* ── Demand bars ── */
+    .demand-row-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border2);
+    }
+    .demand-row-item:last-child { border-bottom: none; }
+    .demand-name { font-size: 11px; color: var(--muted); min-width: 110px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .demand-bar-track { flex: 1; background: var(--surface2); border-radius: 2px; height: 4px; }
+    .demand-bar-fill  { height: 4px; border-radius: 2px; background: var(--accent2); }
+    .demand-num { font-family: var(--mono); font-size: 10px; color: var(--dim); min-width: 55px; text-align: right; }
+
+    /* ── Filters ── */
+    .filter-bar { display: flex; gap: 8px; flex-wrap: wrap; }
+    .fselect {
+      font-size: 11px;
+      font-family: var(--mono);
+      padding: 4px 8px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .fselect:focus { outline: none; border-color: var(--accent2); }
+    .fbtn {
+      font-size: 11px;
+      font-family: var(--mono);
+      padding: 4px 10px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.1s;
+    }
+    .fbtn:hover { border-color: var(--muted); color: var(--text); }
+    .fbtn.on { background: rgba(56,139,253,0.15); border-color: var(--accent2); color: var(--accent2); }
+
+    /* ── Chat ── */
+    .chat-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .chat-body {
+      flex: 1;
+      padding: 14px 16px;
+      min-height: 200px;
+      max-height: 300px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .chat-msg { display: flex; flex-direction: column; }
+    .chat-msg.user { align-items: flex-end; }
+    .chat-msg.bot  { align-items: flex-start; }
+    .chat-bubble {
+      max-width: 85%;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    .chat-msg.user .chat-bubble {
+      background: rgba(56,139,253,0.2);
+      border: 1px solid rgba(56,139,253,0.3);
+      color: var(--text);
+    }
+    .chat-msg.bot .chat-bubble {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .chat-chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 16px; border-top: 1px solid var(--border); }
+    .chip {
+      font-size: 11px;
+      font-family: var(--mono);
+      padding: 4px 10px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--dim);
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.1s;
+      white-space: nowrap;
+    }
+    .chip:hover { border-color: var(--accent2); color: var(--accent2); }
+    .chat-input-row {
+      display: flex;
+      gap: 8px;
+      padding: 10px 16px;
+      border-top: 1px solid var(--border);
+      background: var(--surface2);
+    }
+    .chat-input {
+      flex: 1;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-family: var(--sans);
+      color: var(--text);
+      outline: none;
+    }
+    .chat-input:focus { border-color: var(--accent2); }
+    .chat-input::placeholder { color: var(--dim); }
+    .chat-send {
+      background: var(--accent2);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 6px 14px;
+      font-size: 12px;
+      font-family: var(--sans);
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .chat-send:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    .typing-dots { display: flex; gap: 4px; padding: 2px 0; }
+    .typing-dots span { width: 5px; height: 5px; border-radius: 50%; background: var(--dim); animation: bounce 1.2s infinite; }
+    .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes bounce { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-4px)} }
+
+    .disclaimer {
+      font-size: 10px;
+      font-family: var(--mono);
+      color: var(--dim);
+      text-align: center;
+      padding: 12px 0 4px;
+      border-top: 1px solid var(--border2);
+      margin-top: 8px;
+    }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 4px; height: 4px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-logo">UCB <span>/</span> Supply Chain</div>
+  <div class="header-divider"></div>
+  <div class="header-label">AED Demand Intelligence — Medicare Part D 2024</div>
+  <div class="header-right">
+    <div class="live-badge"><div class="live-dot"></div>LIVE</div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">Overview</div>
+      <div class="stat-block">
+        <span class="stat-name">Total alerts</span>
+        <span class="stat-number">{{ total_alerts }}</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-name">Demand spikes</span>
+        <span class="stat-number spike">{{ spike_alerts }}</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-name">Demand drops</span>
+        <span class="stat-number drop">{{ drop_alerts }}</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-name">Drugs monitored</span>
+        <span class="stat-number green">{{ drugs | length }}</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-name">States covered</span>
+        <span class="stat-number">{{ states | length }}</span>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Drugs</div>
+      <div id="drug-nav">
+        <div class="drug-item active" onclick="filterByDrug('', this)">
+          <span class="drug-name">All drugs</span>
+          <span class="drug-count">{{ total_alerts }}</span>
+        </div>
+        {% for d in drugs %}
+        <div class="drug-item" onclick="filterByDrug('{{ d }}', this)">
+          <span class="drug-name">{{ d }}</span>
+          <span class="drug-count">—</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Metric row -->
+    <div class="metric-row">
+      <div class="metric-card">
+        <div class="metric-top">Total claims</div>
+        <div class="metric-val">{% set total = namespace(val=0) %}{% for n in national %}{% set total.val = total.val + n.total_claims %}{% endfor %}{{ "{:,.0f}".format(total.val) }}</div>
+        <div class="metric-sub">across all AEDs — 2024</div>
+      </div>
+      <div class="metric-card spike">
+        <div class="metric-top">Spike alerts</div>
+        <div class="metric-val">{{ spike_alerts }}</div>
+        <div class="metric-sub">demand above forecast</div>
+      </div>
+      <div class="metric-card drop">
+        <div class="metric-top">Drop alerts</div>
+        <div class="metric-val">{{ drop_alerts }}</div>
+        <div class="metric-sub">demand below forecast</div>
+      </div>
+      <div class="metric-card green">
+        <div class="metric-top">Detection rate</div>
+        <div class="metric-val">100%</div>
+        <div class="metric-sub">precision & recall — F1 1.00</div>
+      </div>
+    </div>
+
+    <!-- Content grid -->
+    <div class="content-grid">
+
+      <!-- Alert table -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Supply chain alerts</span>
+          <div class="filter-bar">
+            <select class="fselect" id="state-filter" onchange="loadAlerts()">
+              <option value="">All states</option>
+              {% for s in states %}
+              <option value="{{ s }}">{{ s }}</option>
+              {% endfor %}
+            </select>
+            <button class="fbtn on" onclick="setType('', this)">All</button>
+            <button class="fbtn" onclick="setType('SPIKE', this)">Spike</button>
+            <button class="fbtn" onclick="setType('DROP', this)">Drop</button>
+          </div>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="alert-table">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Drug</th>
+                <th>State</th>
+                <th>Date</th>
+                <th style="text-align:right">Deviation</th>
+              </tr>
+            </thead>
+            <tbody id="alert-tbody">
+              {% for a in top_alerts %}
+              <tr class="alert-row" onclick="toggleDetail('det-{{ loop.index }}')">
+                <td><span class="tag {{ 'tag-spike' if a.flag_type == 'SPIKE' else 'tag-drop' }}">{{ a.flag_type }}</span></td>
+                <td class="drug-cell">{{ a.drug }}</td>
+                <td class="state-cell">{{ a.state }}</td>
+                <td class="date-cell">{{ a.date }}</td>
+                <td class="dev-cell {{ 'dev-spike-val' if a.flag_type == 'SPIKE' else 'dev-drop-val' }}">{{ '+' if a.deviation > 0 else '' }}{{ "%.1f"|format(a.deviation) }}%</td>
+              </tr>
+              <tr class="detail-row" id="det-{{ loop.index }}">
+                <td colspan="5">Actual: {{ "{:,}".format(a.actual) }} claims &nbsp;·&nbsp; Forecast: {{ "{:,}".format(a.forecast|int) }} claims</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Right column -->
+      <div style="display:flex;flex-direction:column;gap:12px;">
+
+        <!-- Demand bars -->
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title">National demand</span>
+            <span class="panel-meta">2024 claims</span>
+          </div>
+          <div class="panel-body">
+            {% set max_c = national | map(attribute='total_claims') | max %}
+            {% for n in national | sort(attribute='total_claims', reverse=True) %}
+            <div class="demand-row-item">
+              <span class="demand-name">{{ n.drug }}</span>
+              <div class="demand-bar-track">
+                <div class="demand-bar-fill" style="width:{{ (n.total_claims / max_c * 100)|int }}%"></div>
+              </div>
+              <span class="demand-num">{{ "{:,.0f}".format(n.total_claims) }}</span>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Chat -->
+    <div class="chat-panel">
+      <div class="panel-header">
+        <span class="panel-title">Supply chain assistant</span>
+        <span class="panel-meta">Powered by Amazon Bedrock</span>
+      </div>
+      <div class="chat-body" id="chat-body">
+        <div class="chat-msg bot">
+          <div class="chat-bubble">Ready. I have full visibility into 2024 AED demand data across {{ drugs|length }} drugs and {{ states|length }} states. Ask about anomalies, inventory priorities, or demand trends.</div>
+        </div>
+      </div>
+      <div class="chat-chips">
+        <span class="chip" onclick="useChip(this)">Which drug had the biggest demand spike?</span>
+        <span class="chip" onclick="useChip(this)">What happened to Levetiracetam in Florida?</span>
+        <span class="chip" onclick="useChip(this)">Which states had the most drop alerts?</span>
+        <span class="chip" onclick="useChip(this)">How does Brivaracetam demand compare to Levetiracetam?</span>
+        <span class="chip" onclick="useChip(this)">Which drug-state combinations had the highest risk in 2024?</span>
+      </div>
+      <div class="chat-input-row">
+        <input class="chat-input" id="chat-input" placeholder="Ask about demand anomalies or inventory recommendations..." onkeydown="if(event.key==='Enter')sendChat()"/>
+        <button class="chat-send" id="chat-send" onclick="sendChat()">Ask</button>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      Weekly signals synthetically distributed from real 2024 Medicare Part D annual baselines.
+      In production, replace with UCB internal weekly sales and order data.
+    </div>
+
+  </main>
+</div>
+
+<script>
+  let activeDrug = "";
+  let activeType = "";
+
+  function filterByDrug(drug, el) {
+    activeDrug = drug;
+    document.querySelectorAll(".drug-item").forEach(d => d.classList.remove("active"));
+    el.classList.add("active");
+    loadAlerts();
+  }
+
+  function setType(type, btn) {
+    activeType = type;
+    document.querySelectorAll(".fbtn").forEach(b => b.classList.remove("on"));
+    btn.classList.add("on");
+    loadAlerts();
+  }
+
+  async function loadAlerts() {
+    let url = `/alerts?`;
+    if (activeDrug) url += `drug=${encodeURIComponent(activeDrug)}&`;
+    if (document.getElementById("state-filter").value) url += `state=${document.getElementById("state-filter").value}&`;
+    if (activeType) url += `flag_type=${activeType}&`;
+
+    const r    = await fetch(url);
+    const data = await r.json();
+    const tbody = document.getElementById("alert-tbody");
+
+    if (!data.length) {
+      tbody.innerHTML = `<tr><td colspan="5" style="padding:16px;text-align:center;color:var(--dim);font-family:var(--mono);">No alerts match this filter</td></tr>`;
+      return;
+    }
+
+    tbody.innerHTML = data.slice(0, 20).map((a, i) => `
+      <tr class="alert-row" onclick="toggleDetailDyn('dd-${i}')">
+        <td><span class="tag ${a.flag_type==='SPIKE'?'tag-spike':'tag-drop'}">${a.flag_type}</span></td>
+        <td class="drug-cell">${a.drug}</td>
+        <td class="state-cell">${a.state}</td>
+        <td class="date-cell">${a.date}</td>
+        <td class="dev-cell ${a.flag_type==='SPIKE'?'dev-spike-val':'dev-drop-val'}">${a.deviation>0?'+':''}${a.deviation.toFixed(1)}%</td>
+      </tr>
+      <tr class="detail-row" id="dd-${i}">
+        <td colspan="5">${a.alert}</td>
+      </tr>
+    `).join("");
+  }
+
+  function toggleDetail(id) {
+    document.getElementById(id).classList.toggle("open");
+  }
+  function toggleDetailDyn(id) {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle("open");
+  }
+
+  function useChip(el) {
+    document.getElementById("chat-input").value = el.textContent.trim();
+    sendChat();
+  }
+
+  async function sendChat() {
+    const input = document.getElementById("chat-input");
+    const btn   = document.getElementById("chat-send");
+    const body  = document.getElementById("chat-body");
+    const q     = input.value.trim();
+    if (!q) return;
+
+    input.value  = "";
+    btn.disabled = true;
+
+    body.innerHTML += `<div class="chat-msg user"><div class="chat-bubble">${q}</div></div>`;
+    body.innerHTML += `<div class="chat-msg bot" id="typing"><div class="chat-bubble"><div class="typing-dots"><span></span><span></span><span></span></div></div></div>`;
+    body.scrollTop = body.scrollHeight;
+
+    try {
+      const r    = await fetch("/chat", { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({question:q}) });
+      const data = await r.json();
+      document.getElementById("typing").remove();
+      const answer = data.error ? `Error: ${data.error}` : data.answer;
+      body.innerHTML += `<div class="chat-msg bot"><div class="chat-bubble">${answer}</div></div>`;
+    } catch(e) {
+      document.getElementById("typing")?.remove();
+      body.innerHTML += `<div class="chat-msg bot"><div class="chat-bubble">Network error — check the server.</div></div>`;
+    }
+
+    body.scrollTop = body.scrollHeight;
+    btn.disabled   = false;
+    input.focus();
+  }
+</script>
+</body>
+</html>

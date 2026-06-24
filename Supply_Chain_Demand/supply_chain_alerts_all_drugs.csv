@@ -1,0 +1,348 @@
+drug,state,date,flag_type,deviation,actual,forecast,alert,true_anomaly
+Levetiracetam,FL,2022-06-05,SPIKE,221.8,15680,4873,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Levetiracetam demand in FL on 2022-06-05.
+
+**Severity:** High
+
+**Likely cause:** Possible new prescription guidelines or a regional health event.
+
+**Recommended action:** Immediately increase inventory levels for FL. Investigate cause with local healthcare providers. Update demand forecast models to prevent future discrepancies.",True
+Levetiracetam,FL,2022-06-12,SPIKE,220.0,14579,4556,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Levetiracetam demand in FL on 2022-06-12.
+
+**Severity:** High
+
+**Likely cause:** Possible new prescription guidelines or a regional health event.
+
+**Recommended action:** Immediately increase inventory levels for FL. Investigate the cause to adjust future forecasts and prevent stockouts. Notify local sales and medical teams for insights.",True
+Levetiracetam,FL,2022-06-19,SPIKE,211.7,13968,4481,"**Supply Chain Alert**
+
+**Drug:** Levetiracetam  
+**State:** FL  
+**Date:** 2022-06-19  
+**Anomaly Type:** SPIKE  
+**Actual Demand:** 13,968 claims  
+**Forecast:** 4,481 claims  
+**Deviation:** +211.7%  
+
+**Severity:** High  
+**Likely Cause:** Possible new treatment protocol or increased patient population.  
+**Recommended Action:** Investigate cause immediately. Increase inventory and monitor demand closely. Notify local distributors for potential resupply needs.",True
+Levetiracetam,FL,2022-06-26,SPIKE,228.2,15347,4676,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Levetiracetam demand in FL on 2022-06-26.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or a regional health event.
+
+**Recommended action:** Immediately increase inventory levels for FL. Investigate the cause to adjust future forecasts and prevent stockouts. Notify local sales and medical teams for insights.",True
+Brivaracetam,CA,2022-04-03,SPIKE,126.0,375,166,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Brivaracetam demand in CA on 2022-04-03.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or increased patient awareness.
+
+**Recommended action:** Immediately increase inventory buffer for Brivaracetam in CA. Investigate cause with local healthcare providers. Update demand forecast models to prevent stockouts.",True
+Brivaracetam,CA,2022-04-10,SPIKE,153.6,420,166,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Brivaracetam demand in CA on 2022-04-10.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or increased patient awareness.
+
+**Recommended action:** Immediately increase inventory levels for Brivaracetam in CA. Notify sales and marketing teams to assess market changes. Monitor demand closely for the next two weeks.",True
+Brivaracetam,CA,2022-04-17,SPIKE,162.2,420,160,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Brivaracetam demand in CA on 2022-04-17.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or increased patient awareness.
+
+**Recommended action:** Immediately increase inventory levels and monitor demand closely. Notify sales and marketing teams for further investigation into the cause. Prepare for potential sustained high demand.",True
+Brivaracetam,CA,2022-04-24,SPIKE,155.6,397,155,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Brivaracetam demand in CA on 2022-04-24.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or increased awareness.
+
+**Recommended action:** Immediately increase inventory levels and monitor demand closely. Notify sales and marketing teams for further investigation.",True
+Brivaracetam,CA,2022-05-01,SPIKE,127.3,355,156,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Brivaracetam demand in CA on 2022-05-01.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or increased awareness.
+
+**Recommended action:** Immediately investigate cause. Increase inventory buffer for CA. Notify sales and marketing teams for further insights. Monitor demand closely for the next two weeks.",True
+Brivaracetam,TX,2022-11-06,DROP,-90.9,15,165,"**Supply Chain Alert**
+
+**Drug:** Brivaracetam  
+**State:** TX  
+**Date:** 2022-11-06  
+**Anomaly Type:** DROP  
+**Actual Demand:** 15 claims  
+**Forecast:** 165 claims  
+**Deviation:** -90.9%
+
+**Severity:** High  
+**Likely Cause:** Possible data entry error or sudden change in prescription patterns.  
+**Recommended Action:** Verify data accuracy. If confirmed, investigate local market changes and adjust forecast models. Communicate with regional teams for immediate response.",True
+Brivaracetam,TX,2022-11-13,DROP,-89.7,17,165,"**Supply Chain Alert**
+
+**Drug:** Brivaracetam  
+**State:** TX  
+**Date:** 2022-11-13  
+**Anomaly Type:** DROP  
+**Actual Demand:** 17 claims  
+**Forecast:** 165 claims  
+**Deviation:** -89.7%
+
+**Severity:** High  
+**Likely Cause:** Possible data entry error or sudden change in prescription patterns.  
+**Recommended Action:** Verify data accuracy. If correct, investigate local market changes or competitor activity. Adjust forecast models and communicate with local teams for immediate response.",True
+Lamotrigine,TX,2022-08-07,DROP,-78.1,671,3066,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Lamotrigine demand in TX on 2022-08-07.
+
+**Severity:** High
+
+**Likely cause:** Possible temporary supply issue or sudden change in prescription patterns.
+
+**Recommended action:** Investigate immediate causes. Ensure adequate stock levels and communicate with local distributors to prevent shortages. Monitor demand closely for the next two weeks.",True
+Lamotrigine,TX,2022-08-14,DROP,-81.5,564,3047,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Lamotrigine demand in TX on 2022-08-14.
+
+**Severity:** High
+
+**Likely cause:** Possible temporary supply issue or regulatory change.
+
+**Recommended action:** Investigate immediate cause. Adjust local inventory levels and communicate with distributors to prevent stockouts. Monitor demand closely for the next two weeks.",True
+Lamotrigine,TX,2022-08-21,DROP,-80.1,619,3103,"**Supply Chain Alert**
+
+**Drug:** Lamotrigine  
+**State:** TX  
+**Date:** 2022-08-21  
+**Anomaly Type:** DROP  
+**Actual Demand:** 619 claims  
+**Forecast:** 3,103 claims  
+**Deviation:** -80.1% from expected
+
+**Severity:** High  
+**Likely Cause:** Potential regulatory changes or market competition.  
+**Recommended Action:** Investigate cause immediately. Adjust inventory levels and communicate with local distributors to prevent stockouts. Monitor situation closely for further deviations.",True
+Lamotrigine,TX,2022-08-28,DROP,-79.7,635,3123,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Lamotrigine demand in TX on 2022-08-28.
+
+**Severity:** High
+
+**Likely cause:** Potential market disruption or regulatory change.
+
+**Recommended action:** Investigate cause immediately. Adjust inventory levels and notify sales team to monitor the situation. Update forecast models to reflect new data.",True
+Topiramate,FL,2022-05-01,SPIKE,163.1,8049,3060,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Topiramate demand in FL on 2022-05-01.
+
+**Severity:** High
+
+**Likely cause:** Possible new prescription guidelines or increased patient intake.
+
+**Recommended action:** Immediately investigate cause. Increase inventory buffer for FL. Notify local distributors and pharmacies to prepare for higher demand. Monitor situation closely for next 30 days.",True
+Topiramate,FL,2022-05-08,SPIKE,197.0,9315,3136,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Topiramate demand in FL on 2022-05-08.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or a regional health event.
+
+**Recommended action:** Immediately increase Topiramate supply to FL. Investigate cause to adjust future forecasts and prevent stockouts.",True
+Topiramate,FL,2022-05-15,SPIKE,162.9,8358,3179,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Topiramate demand in FL on 2022-05-15.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or increased patient intake.
+
+**Recommended action:** Immediately increase Topiramate supply to FL. Investigate cause to adjust future forecasts and prevent stockouts.",True
+Topiramate,FL,2022-05-22,SPIKE,186.9,9242,3221,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Topiramate demand in FL on 2022-05-22.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or a regional health event increasing demand.
+
+**Recommended action:** Immediately increase Topiramate supply to FL. Investigate the cause to adjust future forecasts and prevent stockouts.",True
+Topiramate,FL,2022-05-29,SPIKE,178.7,9077,3257,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Topiramate demand in FL on 2022-05-29.
+
+**Severity level:** High
+
+**Likely cause:** Possible new prescription guidelines or a regional health event.
+
+**Recommended action:** Immediately increase Topiramate supply to FL. Investigate the cause to adjust future forecasts and prevent stockouts.",True
+Carbamazepine,OH,2022-10-02,DROP,-90.6,83,881,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Carbamazepine demand in OH on 2022-10-02.
+
+**Severity level:** High
+
+**Likely cause:** Potential stock-out, change in prescription patterns, or data entry error.
+
+**Recommended action:** Verify inventory levels, check for prescription changes, and confirm data accuracy. Adjust forecast models if necessary.",True
+Carbamazepine,OH,2022-10-09,DROP,-89.8,92,899,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Carbamazepine demand in OH on 2022-10-09.
+
+**Severity:** High
+
+**Likely cause:** Potential data entry error or temporary supply issue.
+
+**Recommended action:** Verify data accuracy. If confirmed, assess local supply chain disruptions and communicate with distributors to ensure stock availability. Monitor demand closely for the next few days.",True
+Lacosamide,CA,2022-03-06,SPIKE,119.2,2343,1069,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Lacosamide demand in CA on 2022-03-06.
+
+**Severity:** High
+
+**Likely cause:** Possible new prescription guidelines or increased patient intake.
+
+**Recommended action:** Immediately investigate cause. Increase inventory buffer for CA. Notify sales and medical teams for further assessment. Monitor demand closely for the next two weeks.",True
+Lacosamide,CA,2022-03-13,SPIKE,127.0,2477,1091,"**Supply Chain Alert**
+
+**Drug:** Lacosamide  
+**State:** CA  
+**Date:** 2022-03-13  
+**Anomaly Type:** SPIKE  
+**Actual Demand:** 2,477 claims  
+**Forecast:** 1,091 claims  
+**Deviation:** +127.0%
+
+**Severity:** High  
+**Likely Cause:** Possible new prescription guidelines or increased patient demand.  
+**Recommended Action:** Investigate cause immediately. Increase inventory and monitor demand closely. Notify sales and medical teams for further assessment.",True
+Lacosamide,CA,2022-03-20,SPIKE,111.0,2455,1163,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Lacosamide demand in CA on 2022-03-20.
+
+**Severity:** High
+
+**Likely cause:** Possible new prescription guidelines or increased diagnosis rates.
+
+**Recommended action:** Immediately increase Lacosamide supply to CA. Investigate cause to adjust future forecasts. Monitor inventory levels closely.",True
+Lacosamide,CA,2022-03-27,SPIKE,121.6,2690,1214,"**Supply Chain Alert**
+
+**What is happening:** Significant spike in Lacosamide demand in CA on 2022-03-27.
+
+**Severity:** High
+
+**Likely cause:** Possible new prescription guidelines or increased patient intake.
+
+**Recommended action:** Immediately increase Lacosamide supply to CA. Investigate cause to adjust future forecasts. Monitor inventory levels closely to prevent stockouts.",True
+Zonisamide,CA,2022-09-04,DROP,-85.4,44,302,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Zonisamide demand in CA on 2022-09-04.
+
+**Severity Level:** High
+
+**Likely Cause:** Potential regulatory change or market disruption.
+
+**Recommended Action:** Investigate cause immediately. Adjust inventory levels to prevent overstock. Communicate with local distributors for insights.",True
+Zonisamide,CA,2022-09-11,DROP,-83.7,49,301,"**Supply Chain Alert**
+
+**Drug:** Zonisamide  
+**State:** CA  
+**Date:** 2022-09-11  
+**Anomaly Type:** DROP  
+**Actual Demand:** 49 claims  
+**Forecast:** 301 claims  
+**Deviation:** -83.7%
+
+**Severity:** High  
+**Likely Cause:** Potential regulatory changes or market competition.  
+**Recommended Action:** Investigate cause immediately. Adjust inventory levels and communicate with local distributors to prevent stockouts. Monitor situation closely.",True
+Zonisamide,CA,2022-09-18,DROP,-84.6,47,305,"**Supply Chain Alert**
+
+**Drug:** Zonisamide  
+**State:** CA  
+**Date:** 2022-09-18  
+**Anomaly Type:** DROP  
+**Actual Demand:** 47 claims  
+**Forecast:** 305 claims  
+**Deviation:** -84.6%
+
+**Severity:** High  
+**Likely Cause:** Potential regulatory change or market disruption.  
+**Recommended Action:** Investigate cause immediately. Adjust inventory levels and communicate with local distributors to prevent stockouts. Monitor situation closely.",True
+Zonisamide,CA,2022-09-25,DROP,-87.1,40,310,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Zonisamide demand in CA on 2022-09-25.
+
+**Severity Level:** High
+
+**Likely Cause:** Potential regulatory change or market disruption.
+
+**Recommended Action:** Investigate cause immediately. Adjust inventory levels and communicate with local distributors to prevent stockouts or overstocking. Monitor situation closely for further deviations.",True
+Valproic Acid,FL,2022-07-03,DROP,-70.8,19,65,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Valproic Acid demand in FL on 2022-07-03.
+
+**Severity:** High
+
+**Likely cause:** Potential stock-out, change in prescription patterns, or temporary market shift.
+
+**Recommended action:** Investigate immediate cause. Verify inventory levels and adjust supply if necessary. Communicate with local distributors and pharmacies for insights.",True
+Valproic Acid,FL,2022-07-10,DROP,-70.6,19,65,"**Supply Chain Alert**
+
+**Drug:** Valproic Acid  
+**State:** FL  
+**Date:** 2022-07-10  
+**Anomaly Type:** DROP  
+**Actual Demand:** 19 claims  
+**Forecast:** 65 claims  
+**Deviation:** -70.6%
+
+**Severity:** High  
+**Likely Cause:** Potential regulatory changes or increased competition.  
+**Recommended Action:** Investigate local market conditions. Adjust inventory levels and monitor demand closely.",True
+Valproic Acid,FL,2022-07-17,DROP,-72.4,17,62,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Valproic Acid demand in FL on 2022-07-17.
+
+**Severity:** High
+
+**Likely cause:** Potential regulatory changes or adverse event reports impacting prescriptions.
+
+**Recommended action:** Investigate local market conditions and regulatory updates. Adjust inventory levels and communicate with distributors to prevent stockouts or overstocking. Monitor demand closely for the next two weeks.",True
+Valproic Acid,FL,2022-07-24,DROP,-70.7,17,58,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Valproic Acid demand in FL on 2022-07-24.
+
+**Severity:** High
+
+**Likely cause:** Possible temporary supply issue or sudden change in prescription patterns.
+
+**Recommended action:** Investigate local supply chain disruptions. Contact FL distributors for status updates. Review recent prescription data for any policy changes or competitor activity. Adjust inventory levels accordingly to prevent stockouts or overstocking.",True
+Valproic Acid,FL,2022-07-31,DROP,-68.3,18,57,"**Supply Chain Alert**
+
+**What is happening:** Significant drop in Valproic Acid demand in FL on 2022-07-31.
+
+**Severity:** High
+
+**Likely cause:** Possible regulatory changes or alternative drug preference.
+
+**Recommended action:** Investigate cause immediately. Adjust inventory levels and communicate with local distributors to prevent stockouts or overstocking. Monitor demand trends for the next two weeks.",True
