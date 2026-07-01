@@ -1,0 +1,201 @@
+batch_id,product,true_exceptions,detected,n_true,n_detected
+LE-202601-0001,Levetiracetam Tablets 750mg,[],[],0,0
+LE-202603-0002,Levetiracetam Tablets 750mg,[],[],0,0
+LE-202602-0003,Levetiracetam Tablets 750mg,[],[],0,0
+LE-202602-0004,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202602-0005,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202604-0006,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202606-0007,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202602-0008,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202603-0009,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202603-0010,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202606-0011,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202605-0012,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202604-0013,Brivaracetam Tablets 100mg,['LOT_MISMATCH'],"[{'code': 'LOT_MISMATCH', 'severity': 'High', 'evidence': 'Recorded lot LOT-4593 does not match issued lot LOT-3266'}]",1,1
+LE-202606-0014,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202601-0015,Topiramate Tablets 100mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.5kPa is outside spec range 6-10kPa'}]",1,1
+LA-202604-0016,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202605-0017,Lamotrigine Tablets 200mg,['MISSING_SIGNATURE'],"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]",1,1
+BR-202606-0018,Brivaracetam Tablets 100mg,['LOT_MISMATCH'],"[{'code': 'LOT_MISMATCH', 'severity': 'High', 'evidence': 'Recorded lot LOT-6038 does not match issued lot LOT-4923'}]",1,1
+LE-202604-0019,Levetiracetam Tablets 750mg,['OOS_DISSOLUTION'],"[{'code': 'OOS_DISSOLUTION', 'severity': 'Critical', 'evidence': 'Dissolution 75.5% is below minimum 80.0%'}]",1,1
+BR-202601-0020,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202606-0021,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202601-0022,Brivaracetam Tablets 100mg,['OOS_WEIGHT'],"[{'code': 'OOS_WEIGHT', 'severity': 'High', 'evidence': 'Tablet weight 107.4mg is outside spec range 95-105mg'}]",1,1
+BR-202604-0023,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202605-0024,Topiramate Tablets 100mg,[],[],0,0
+BR-202605-0025,Brivaracetam Tablets 100mg,[],[],0,0
+LE-202601-0026,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202603-0027,Topiramate Tablets 100mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.8kPa is outside spec range 6-10kPa'}]",1,1
+LE-202606-0028,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202606-0029,Topiramate Tablets 100mg,[],[],0,0
+LA-202606-0030,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202604-0031,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202606-0032,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202602-0033,Brivaracetam Tablets 100mg,['TEMP_DEVIATION'],"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 32.6C outside validated range 20-25C'}]",1,1
+LA-202603-0034,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202605-0035,Lamotrigine Tablets 200mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 6.4kPa is outside spec range 7-11kPa'}]",1,1
+LA-202605-0036,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202602-0037,Lamotrigine Tablets 200mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 5.2kPa is outside spec range 7-11kPa'}]",1,1
+BR-202605-0038,Brivaracetam Tablets 100mg,[],[],0,0
+LA-202602-0039,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202601-0040,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202601-0041,Topiramate Tablets 100mg,[],[],0,0
+BR-202605-0042,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202605-0043,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202601-0044,Topiramate Tablets 100mg,[],[],0,0
+LA-202606-0045,Lamotrigine Tablets 200mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 5.9kPa is outside spec range 7-11kPa'}]",1,1
+TO-202606-0046,Topiramate Tablets 100mg,['MISSING_SIGNATURE'],"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]",1,1
+BR-202603-0047,Brivaracetam Tablets 100mg,['LOT_MISMATCH'],"[{'code': 'LOT_MISMATCH', 'severity': 'High', 'evidence': 'Recorded lot LOT-9346 does not match issued lot LOT-7548'}]",1,1
+LA-202602-0048,Lamotrigine Tablets 200mg,[],[],0,0
+TO-202602-0049,Topiramate Tablets 100mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.9kPa is outside spec range 6-10kPa'}]",1,1
+LA-202604-0050,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202601-0051,Brivaracetam Tablets 100mg,[],[],0,0
+LE-202606-0052,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202605-0053,Brivaracetam Tablets 100mg,[],[],0,0
+LE-202601-0054,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202603-0055,Topiramate Tablets 100mg,[],[],0,0
+LA-202603-0056,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202606-0057,Levetiracetam Tablets 750mg,['MISSING_SIGNATURE'],"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]",1,1
+TO-202606-0058,Topiramate Tablets 100mg,[],[],0,0
+LE-202606-0059,Levetiracetam Tablets 750mg,['MISSING_SIGNATURE'],"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]",1,1
+LE-202606-0060,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202605-0061,Topiramate Tablets 100mg,[],[],0,0
+LA-202602-0062,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202601-0063,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202605-0064,Brivaracetam Tablets 100mg,[],[],0,0
+LE-202603-0065,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202604-0066,Topiramate Tablets 100mg,[],[],0,0
+BR-202602-0067,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202604-0068,Topiramate Tablets 100mg,[],[],0,0
+LE-202602-0069,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202606-0070,Topiramate Tablets 100mg,['EXPIRED_CALIBRATION'],"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment M-204 calibrated 95 days before batch run, exceeds 90-day interval'}]",1,1
+TO-202604-0071,Topiramate Tablets 100mg,[],[],0,0
+LE-202602-0072,Levetiracetam Tablets 750mg,['MISSING_SIGNATURE'],"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]",1,1
+LE-202602-0073,Levetiracetam Tablets 750mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.3kPa is outside spec range 6-10kPa'}]",1,1
+LA-202606-0074,Lamotrigine Tablets 200mg,['TEMP_DEVIATION'],"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 30.8C outside validated range 20-25C'}]",1,1
+LE-202606-0075,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202605-0076,Lamotrigine Tablets 200mg,[],[],0,0
+TO-202605-0077,Topiramate Tablets 100mg,[],[],0,0
+TO-202604-0078,Topiramate Tablets 100mg,[],[],0,0
+LA-202606-0079,Lamotrigine Tablets 200mg,[],[],0,0
+TO-202601-0080,Topiramate Tablets 100mg,[],[],0,0
+LA-202606-0081,Lamotrigine Tablets 200mg,[],[],0,0
+TO-202601-0082,Topiramate Tablets 100mg,['TIMING_GAP'],"[{'code': 'TIMING_GAP', 'severity': 'Medium', 'evidence': 'Hold time 35.3h exceeds validated maximum 24h'}]",1,1
+LA-202603-0083,Lamotrigine Tablets 200mg,['LOT_MISMATCH'],"[{'code': 'LOT_MISMATCH', 'severity': 'High', 'evidence': 'Recorded lot LOT-8753 does not match issued lot LOT-9698'}]",1,1
+LA-202603-0084,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202605-0085,Brivaracetam Tablets 100mg,[],[],0,0
+LA-202603-0086,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202606-0087,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202602-0088,Topiramate Tablets 100mg,[],[],0,0
+LE-202602-0089,Levetiracetam Tablets 750mg,[],[],0,0
+LE-202603-0090,Levetiracetam Tablets 750mg,['TEMP_DEVIATION'],"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 32.2C outside validated range 20-25C'}]",1,1
+BR-202605-0091,Brivaracetam Tablets 100mg,[],[],0,0
+LE-202602-0092,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202602-0093,Brivaracetam Tablets 100mg,['TIMING_GAP'],"[{'code': 'TIMING_GAP', 'severity': 'Medium', 'evidence': 'Hold time 31.7h exceeds validated maximum 24h'}]",1,1
+LA-202606-0094,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202603-0095,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202605-0096,Brivaracetam Tablets 100mg,['EXPIRED_CALIBRATION'],"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment S-410 calibrated 35 days before batch run, exceeds 30-day interval'}]",1,1
+TO-202604-0097,Topiramate Tablets 100mg,[],[],0,0
+LE-202603-0098,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202602-0099,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202605-0100,Topiramate Tablets 100mg,[],[],0,0
+BR-202605-0101,Brivaracetam Tablets 100mg,[],[],0,0
+LE-202605-0102,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202603-0103,Topiramate Tablets 100mg,[],[],0,0
+TO-202602-0104,Topiramate Tablets 100mg,[],[],0,0
+TO-202605-0105,Topiramate Tablets 100mg,[],[],0,0
+LE-202603-0106,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202601-0107,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202604-0108,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202604-0109,Brivaracetam Tablets 100mg,[],[],0,0
+LA-202605-0110,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202606-0111,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202603-0112,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202603-0113,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202604-0114,Topiramate Tablets 100mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.8kPa is outside spec range 6-10kPa'}]",1,1
+LA-202605-0115,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202603-0116,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202605-0117,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202601-0118,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202603-0119,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202601-0120,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202602-0121,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202601-0122,Topiramate Tablets 100mg,['EXPIRED_CALIBRATION'],"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment S-410 calibrated 35 days before batch run, exceeds 30-day interval'}]",1,1
+LA-202605-0123,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202602-0124,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202603-0125,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202606-0126,Lamotrigine Tablets 200mg,['OOS_WEIGHT'],"[{'code': 'OOS_WEIGHT', 'severity': 'High', 'evidence': 'Tablet weight 210.5mg is outside spec range 195-205mg'}]",1,1
+LE-202604-0127,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202606-0128,Lamotrigine Tablets 200mg,[],[],0,0
+TO-202601-0129,Topiramate Tablets 100mg,[],[],0,0
+TO-202604-0130,Topiramate Tablets 100mg,['EXPIRED_CALIBRATION'],"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment P-118 calibrated 66 days before batch run, exceeds 60-day interval'}]",1,1
+BR-202606-0131,Brivaracetam Tablets 100mg,['TIMING_GAP'],"[{'code': 'TIMING_GAP', 'severity': 'Medium', 'evidence': 'Hold time 45.9h exceeds validated maximum 24h'}]",1,1
+TO-202605-0132,Topiramate Tablets 100mg,[],[],0,0
+BR-202603-0133,Brivaracetam Tablets 100mg,['TEMP_DEVIATION'],"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 32.1C outside validated range 20-25C'}]",1,1
+TO-202603-0134,Topiramate Tablets 100mg,[],[],0,0
+TO-202606-0135,Topiramate Tablets 100mg,[],[],0,0
+LA-202605-0136,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202602-0137,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202601-0138,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202605-0139,Brivaracetam Tablets 100mg,[],[],0,0
+LE-202606-0140,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202602-0141,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202601-0142,Topiramate Tablets 100mg,[],[],0,0
+LE-202604-0143,Levetiracetam Tablets 750mg,[],[],0,0
+LE-202605-0144,Levetiracetam Tablets 750mg,[],[],0,0
+LE-202603-0145,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202605-0146,Topiramate Tablets 100mg,[],[],0,0
+TO-202605-0147,Topiramate Tablets 100mg,[],[],0,0
+LA-202606-0148,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202603-0149,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202606-0150,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202602-0151,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202604-0152,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202602-0153,Topiramate Tablets 100mg,[],[],0,0
+LA-202602-0154,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202603-0155,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202604-0156,Topiramate Tablets 100mg,[],[],0,0
+LE-202605-0157,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202605-0158,Topiramate Tablets 100mg,[],[],0,0
+LE-202602-0159,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202603-0160,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202601-0161,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202602-0162,Topiramate Tablets 100mg,[],[],0,0
+LA-202602-0163,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202606-0164,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202604-0165,Lamotrigine Tablets 200mg,[],[],0,0
+BR-202606-0166,Brivaracetam Tablets 100mg,[],[],0,0
+BR-202602-0167,Brivaracetam Tablets 100mg,[],[],0,0
+LA-202603-0168,Lamotrigine Tablets 200mg,['EXPIRED_CALIBRATION'],"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment D-302 calibrated 33 days before batch run, exceeds 30-day interval'}]",1,1
+LE-202605-0169,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202601-0170,Topiramate Tablets 100mg,[],[],0,0
+LA-202603-0171,Lamotrigine Tablets 200mg,[],[],0,0
+TO-202605-0172,Topiramate Tablets 100mg,[],[],0,0
+LE-202603-0173,Levetiracetam Tablets 750mg,[],[],0,0
+TO-202604-0174,Topiramate Tablets 100mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.7kPa is outside spec range 6-10kPa'}]",1,1
+BR-202606-0175,Brivaracetam Tablets 100mg,['TEMP_DEVIATION'],"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 30.9C outside validated range 20-25C'}]",1,1
+LE-202605-0176,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202603-0177,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202605-0178,Topiramate Tablets 100mg,[],[],0,0
+LA-202604-0179,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202602-0180,Lamotrigine Tablets 200mg,['OOS_DISSOLUTION'],"[{'code': 'OOS_DISSOLUTION', 'severity': 'Critical', 'evidence': 'Dissolution 75.1% is below minimum 80.0%'}]",1,1
+LE-202601-0181,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202603-0182,Brivaracetam Tablets 100mg,['MISSING_SIGNATURE'],"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]",1,1
+LA-202601-0183,Lamotrigine Tablets 200mg,[],[],0,0
+TO-202601-0184,Topiramate Tablets 100mg,[],[],0,0
+BR-202602-0185,Brivaracetam Tablets 100mg,['OOS_HARDNESS'],"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.1kPa is outside spec range 5-9kPa'}]",1,1
+LA-202601-0186,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202603-0187,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202604-0188,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202606-0189,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202603-0190,Topiramate Tablets 100mg,[],[],0,0
+BR-202606-0191,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202601-0192,Topiramate Tablets 100mg,['OOS_WEIGHT'],"[{'code': 'OOS_WEIGHT', 'severity': 'High', 'evidence': 'Tablet weight 107.8mg is outside spec range 98-102mg'}]",1,1
+BR-202601-0193,Brivaracetam Tablets 100mg,[],[],0,0
+LE-202605-0194,Levetiracetam Tablets 750mg,[],[],0,0
+LA-202603-0195,Lamotrigine Tablets 200mg,[],[],0,0
+LE-202605-0196,Levetiracetam Tablets 750mg,[],[],0,0
+BR-202605-0197,Brivaracetam Tablets 100mg,[],[],0,0
+TO-202603-0198,Topiramate Tablets 100mg,[],[],0,0
+LA-202603-0199,Lamotrigine Tablets 200mg,[],[],0,0
+LA-202605-0200,Lamotrigine Tablets 200mg,[],[],0,0

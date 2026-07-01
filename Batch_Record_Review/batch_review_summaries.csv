@@ -1,0 +1,228 @@
+batch_id,product,n_findings,findings,summary
+BR-202604-0013,Brivaracetam Tablets 100mg,1,"[{'code': 'LOT_MISMATCH', 'severity': 'High', 'evidence': 'Recorded lot LOT-4593 does not match issued lot LOT-3266'}]","**QA Review Summary for BR-202604-0013**
+
+**Finding:** A critical LOT_MISMATCH was identified where the recorded lot (LOT-4593) does not correspond to the issued lot (LOT-3266).
+
+**Significance:** This discrepancy poses a substantial risk to product integrity and traceability, potentially leading to incorrect inventory management and compromised patient safety.
+
+**Recommended Action:** Per GMP, conduct a thorough investigation to identify the root cause of the mismatch. Verify the correct lot was used in production. If confirmed, implement corrective actions to prevent recurrence. Depending on the investigation outcome, consider batch rejection or additional testing to ensure product quality and compliance."
+TO-202601-0015,Topiramate Tablets 100mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.5kPa is outside spec range 6-10kPa'}]","QA Review Summary for Batch TO-202601-0015:
+
+An Out-of-Specification (OOS) result was identified for tablet hardness, measuring 4.5 kPa, which falls below the specified range of 6-10 kPa. This is critical as tablet hardness directly impacts the product's dissolution rate, stability, and patient compliance. 
+
+Recommended next steps:
+1. Conduct a root cause analysis to determine the deviation source.
+2. Perform a thorough impact assessment on product quality and stability.
+3. Consider retesting to confirm the OOS result.
+4. Based on findings, decide whether to reject the batch, investigate further, or potentially reprocess under controlled conditions.
+
+Final disposition should align with GMP principles ensuring product safety and efficacy."
+LA-202605-0017,Lamotrigine Tablets 200mg,1,"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]","**QA Review Summary for Batch LA-202605-0017**
+
+**Finding:** Critical exception - Missing QA signature in the final release section.
+
+**Importance:** The absence of a QA signature is a significant GMP non-compliance, as it indicates that the final quality check and approval were not formally documented. This undermines the integrity of the batch release process.
+
+**Recommended Action:** The batch should be placed on hold until the QA signature is obtained. Investigate the oversight to prevent recurrence. Once the signature is in place, re-evaluate the batch for release. If the issue persists or other discrepancies are found, consider batch rejection."
+BR-202606-0018,Brivaracetam Tablets 100mg,1,"[{'code': 'LOT_MISMATCH', 'severity': 'High', 'evidence': 'Recorded lot LOT-6038 does not match issued lot LOT-4923'}]","**QA Review Summary for BR-202606-0018**
+
+**Finding:** LOT_MISMATCH - Recorded lot LOT-6038 does not match issued lot LOT-4923.
+
+**Significance:** This discrepancy indicates a potential error in material tracking, which compromises batch integrity and traceability. It is critical to ensure the correct lot is used to maintain product quality and compliance with GMP.
+
+**Recommended Action:** Investigate the root cause of the lot mismatch. Verify the correct lot was used in production. If confirmed, document the discrepancy and perform a risk assessment. If the correct lot was not used, consider batch rejection. Implement corrective actions to prevent recurrence."
+LE-202604-0019,Levetiracetam Tablets 750mg,1,"[{'code': 'OOS_DISSOLUTION', 'severity': 'Critical', 'evidence': 'Dissolution 75.5% is below minimum 80.0%'}]","**QA Review Summary for Batch LE-202604-0019**
+
+**Finding:** Dissolution result of 75.5% is below the specified minimum of 80.0%.
+**Significance:** This OOS (Out of Specification) result indicates potential issues with drug bioavailability, which could impact therapeutic efficacy and patient safety.
+**Recommended Action:** Per GMP practice, conduct a thorough investigation to determine root cause. Retest the batch to confirm the initial result. Depending on investigation outcomes, consider batch rejection or further review by a deviation committee to assess potential for reprocessing or release with justified risk assessment."
+BR-202601-0022,Brivaracetam Tablets 100mg,1,"[{'code': 'OOS_WEIGHT', 'severity': 'High', 'evidence': 'Tablet weight 107.4mg is outside spec range 95-105mg'}]","QA Review Summary for BR-202601-0022:
+
+An Out-of-Specification (OOS) result was identified where the tablet weight of 107.4mg exceeds the specified range of 95-105mg. This deviation is critical as it affects the product's efficacy and safety profile. Per GMP, a thorough investigation is required to determine the root cause. Recommended next steps include:
+1. Conducting a detailed investigation to identify the cause of the weight variation.
+2. Reviewing process parameters and raw material attributes.
+3. Assessing the impact on batch quality and patient safety.
+4. Implementing corrective and preventive actions if necessary.
+
+Based on investigation outcomes, a decision on batch disposition (release, reprocess, or reject) should be made."
+TO-202603-0027,Topiramate Tablets 100mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.8kPa is outside spec range 6-10kPa'}]","**QA Review Summary for Batch TO-202603-0027**
+
+**Exception:** OOS_HARDNESS - Tablet hardness recorded at 4.8 kPa, which is below the specified range of 6-10 kPa.
+
+**Significance:** Tablet hardness is critical for ensuring consistent dissolution and patient safety. A value below specification may lead to variable drug release and potential efficacy issues.
+
+**Recommended Action:** Conduct a thorough investigation to determine the root cause of the hardness deviation. Evaluate the impact on product quality and perform dissolution testing on the batch. Based on findings, consider reprocessing or rejecting the batch to ensure compliance with GMP standards."
+BR-202602-0033,Brivaracetam Tablets 100mg,1,"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 32.6C outside validated range 20-25C'}]","QA Review Summary for BR-202602-0033:
+
+A temperature deviation was identified where the process temperature reached 32.6°C, exceeding the validated range of 20-25°C. This deviation is significant as it may affect the stability and efficacy of Brivaracetam Tablets. Per GMP practices, a thorough investigation is required to assess the impact on product quality. Recommended next step: Conduct a root cause analysis and impact assessment. Depending on the findings, consider reprocessing, additional testing, or batch rejection to ensure compliance with quality standards."
+LA-202605-0035,Lamotrigine Tablets 200mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 6.4kPa is outside spec range 7-11kPa'}]","QA Review Summary: Batch LA-202605-0035 of Lamotrigine Tablets 200mg exhibits an out-of-specification (OOS) result for tablet hardness, measuring 6.4 kPa against the specified range of 7-11 kPa. This deviation is critical as tablet hardness directly impacts drug dissolution and patient bioavailability. Recommended next step: Conduct a thorough investigation to determine the root cause of the OOS result. This should include review of manufacturing parameters, raw material quality, and equipment calibration. Depending on investigation outcomes, consider retesting a retained sample or performing a dissolution test to assess product performance. Final batch disposition should be determined based on investigation results and compliance with GMP requirements."
+LA-202602-0037,Lamotrigine Tablets 200mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 5.2kPa is outside spec range 7-11kPa'}]","**QA Review Summary for Batch LA-202602-0037**
+
+**Exception Finding: OOS_HARDNESS**
+- **What was found:** Tablet hardness measured at 5.2 kPa, which is below the specified range of 7-11 kPa.
+- **Why it matters:** Tablet hardness directly impacts the product's dissolution rate, stability, and patient compliance. An OOS result may indicate potential issues with product efficacy and safety.
+- **Recommended next step:** Conduct a root cause analysis to determine the reason for the low hardness. Retest a representative sample to confirm the initial finding. Depending on the investigation outcome, consider reprocessing or rejecting the batch to ensure compliance with GMP standards."
+LA-202606-0045,Lamotrigine Tablets 200mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 5.9kPa is outside spec range 7-11kPa'}]","QA Review Summary: Batch LA-202606-0045 of Lamotrigine Tablets 200mg exhibits an Out-of-Specification (OOS) result for tablet hardness, measuring 5.9 kPa against the specified range of 7-11 kPa. This deviation is critical as tablet hardness directly impacts drug dissolution and patient safety. Recommended next step: Conduct a root cause analysis to determine the cause of the OOS result. Depending on the findings, consider retesting a retained sample or performing a full batch re-evaluation. Disposition decision should align with GMP practices to ensure product quality and compliance."
+TO-202606-0046,Topiramate Tablets 100mg,1,"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]","QA Review Summary for Batch TO-202606-0046:
+
+A critical exception was identified: the QA signature is missing from the final release section. This omission is significant as it indicates that the final quality check and approval were not formally documented, which is a violation of GMP requirements. Without this signature, the batch cannot be considered officially released.
+
+Recommended next step: The batch should be placed on hold until the QA signature is obtained. Once the signature is provided and verified, a re-review of the batch record should be conducted to ensure all other sections comply with GMP standards before final disposition."
+BR-202603-0047,Brivaracetam Tablets 100mg,1,"[{'code': 'LOT_MISMATCH', 'severity': 'High', 'evidence': 'Recorded lot LOT-9346 does not match issued lot LOT-7548'}]","**QA Review Summary for BR-202603-0047**
+
+**Finding:** LOT_MISMATCH - Recorded lot LOT-9346 does not match issued lot LOT-7548.
+
+**Significance:** This discrepancy poses a critical risk to product integrity and traceability, potentially leading to incorrect material usage and compromised batch quality.
+
+**Recommended Action:** Per GMP, conduct a thorough investigation to identify the root cause of the lot mismatch. Verify the correct lot was used in production. If confirmed, document the deviation with a detailed CAPA. If incorrect, assess product impact and consider batch rejection. Await QA reviewer's final disposition decision."
+TO-202602-0049,Topiramate Tablets 100mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.9kPa is outside spec range 6-10kPa'}]","QA Review Summary: Batch TO-202602-0049 of Topiramate Tablets 100mg exhibits an Out-of-Specification (OOS) result for tablet hardness, measuring 4.9kPa against the specified range of 6-10kPa. This deviation is critical as tablet hardness directly impacts drug dissolution and patient safety. Recommended next step: Conduct a thorough investigation to determine the root cause of the OOS result. Evaluate the impact on product quality and consider retesting as per GMP guidelines. Based on investigation outcomes, decide whether to reject the batch, implement corrective actions, or proceed with release after ensuring compliance with all quality standards."
+LE-202606-0057,Levetiracetam Tablets 750mg,1,"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]","**QA Review Summary for Batch LE-202606-0057**
+
+**Finding:** Critical exception - MISSING_SIGNATURE: QA signature is absent from the final release section.
+
+**Importance:** This omission is critical as it indicates that the final quality check and approval were not formally documented, which is a mandatory requirement under GMP regulations.
+
+**Recommended Action:** The batch should be placed on hold until the QA signature is obtained. Verify the reason for the missing signature and ensure all necessary quality checks were performed. Once the signature is in place, re-evaluate the batch for release. If any discrepancies are found during this process, further investigation and corrective actions may be required."
+LE-202606-0059,Levetiracetam Tablets 750mg,1,"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]","**QA Review Summary for Batch LE-202606-0059**
+
+**Finding:** Critical exception - Missing QA signature in the final release section.
+
+**Importance:** The absence of a QA signature indicates that the final quality check was not officially documented, which is a violation of GMP requirements. This omission compromises the integrity and traceability of the batch release process.
+
+**Recommended Action:** 
+- Investigate the reason for the missing signature.
+- If the QA review was conducted but not signed, obtain the signature and document the date.
+- If the review was not performed, conduct a full QA review immediately.
+- Ensure all documentation is complete before final batch disposition.
+
+**Disposition:** Hold batch release until the above actions are completed and verified."
+TO-202606-0070,Topiramate Tablets 100mg,1,"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment M-204 calibrated 95 days before batch run, exceeds 90-day interval'}]","**QA Review Summary for Batch TO-202606-0070**
+
+**Finding:** Equipment M-204 was calibrated 95 days prior to batch run, exceeding the 90-day calibration interval.
+
+**Importance:** This is a critical deviation as it compromises the accuracy and reliability of the equipment, potentially affecting product quality and compliance with GMP standards.
+
+**Recommended Action:** Conduct a thorough investigation to assess the impact on batch quality. Consider retesting critical quality attributes. Depending on investigation outcomes, the batch may require rejection or additional validation to ensure compliance. Notify relevant stakeholders and update calibration procedures to prevent future occurrences."
+LE-202602-0072,Levetiracetam Tablets 750mg,1,"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]","**QA Review Summary for Batch LE-202602-0072**
+
+**Finding:** Critical exception - Missing QA signature in the final release section.
+
+**Importance:** The absence of a QA signature indicates that the batch has not undergone the final quality assurance check, which is a mandatory GMP requirement. This omission compromises the integrity and compliance of the batch release process.
+
+**Recommended Action:** The batch should be placed on hold until the QA signature is obtained. Conduct an internal investigation to determine the cause of the oversight and implement corrective actions to prevent recurrence. Once the signature is secured and the investigation is complete, re-evaluate the batch for final disposition."
+LE-202602-0073,Levetiracetam Tablets 750mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.3kPa is outside spec range 6-10kPa'}]","QA Review Summary: Batch LE-202602-0073 exhibits a critical exception with tablet hardness measuring 4.3kPa, significantly below the specified range of 6-10kPa. This deviation is crucial as tablet hardness directly impacts drug dissolution rate and patient bioavailability. Per GMP, an Out-Of-Specification (OOS) result in a critical attribute necessitates a thorough investigation. Recommend initiating a full OOS investigation to determine root cause, assess impact on product quality, and decide appropriate corrective actions. Based on investigation outcomes, consider batch rejection or further testing to ensure compliance with quality standards before release."
+LA-202606-0074,Lamotrigine Tablets 200mg,1,"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 30.8C outside validated range 20-25C'}]","**QA Review Summary: LA-202606-0074**
+
+**Finding:** Process temperature recorded at 30.8°C, exceeding the validated range of 20-25°C.
+
+**Significance:** Temperature deviations can impact product quality and stability, potentially leading to degradation or altered efficacy.
+
+**Recommended Action:** Conduct a thorough investigation to determine the root cause and assess the impact on batch quality. Implement corrective actions to prevent recurrence. Depending on the investigation outcome, consider reprocessing, retesting, or dispositioning the batch as per GMP guidelines."
+TO-202601-0082,Topiramate Tablets 100mg,1,"[{'code': 'TIMING_GAP', 'severity': 'Medium', 'evidence': 'Hold time 35.3h exceeds validated maximum 24h'}]","**QA Review Summary for Batch TO-202601-0082**
+
+**Exception Finding:** Hold time of 35.3 hours exceeds the validated maximum of 24 hours.
+
+**Significance:** Prolonged hold times may affect product stability and quality, potentially leading to degradation or altered efficacy.
+
+**Recommended Action:** Conduct a thorough investigation to assess the impact of the extended hold time on product quality. Perform additional stability testing if necessary. Based on findings, determine if the batch can be released, requires reprocessing, or should be rejected. Document all actions and decisions in accordance with GMP practices."
+LA-202603-0083,Lamotrigine Tablets 200mg,1,"[{'code': 'LOT_MISMATCH', 'severity': 'High', 'evidence': 'Recorded lot LOT-8753 does not match issued lot LOT-9698'}]","**QA Review Summary:**
+
+**Exception:** LOT_MISMATCH
+- **Finding:** Recorded lot LOT-8753 does not match issued lot LOT-9698.
+- **Significance:** This discrepancy poses a risk to product traceability and integrity, potentially leading to incorrect material usage and non-compliance with GMP.
+- **Recommended Action:** Investigate the root cause of the lot mismatch. Verify the correct lot was used in production. If confirmed, document the deviation and perform a risk assessment. If the incorrect lot was used, quarantine the batch and conduct a full impact assessment. Disposition decision should follow thorough investigation and compliance review."
+LE-202603-0090,Levetiracetam Tablets 750mg,1,"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 32.2C outside validated range 20-25C'}]","QA Review Summary: Batch LE-202603-0090 exhibits a medium severity exception with process temperature reaching 32.2°C, exceeding the validated range of 20-25°C. This deviation is critical as it may affect the stability and efficacy of Levetiracetam Tablets. Per GMP, a thorough investigation is required to assess the impact on product quality. Recommended next step: Conduct a root cause analysis and impact assessment. If the deviation is found to compromise product quality, consider batch rejection. Otherwise, implement corrective actions and document findings for future prevention."
+BR-202602-0093,Brivaracetam Tablets 100mg,1,"[{'code': 'TIMING_GAP', 'severity': 'Medium', 'evidence': 'Hold time 31.7h exceeds validated maximum 24h'}]","**QA Review Summary for BR-202602-0093**
+
+**Finding:** Hold time of 31.7 hours exceeds the validated maximum of 24 hours.
+
+**Significance:** Prolonged hold time may impact product stability and quality, potentially leading to degradation or altered efficacy.
+
+**Recommended Action:** Conduct a thorough investigation to assess the impact of the extended hold time on product quality. Perform stability testing on the batch to ensure it meets specifications. If stability is confirmed, consider approving the batch with documented justification. If stability is compromised, reject the batch. Implement corrective actions to prevent future timing gaps."
+BR-202605-0096,Brivaracetam Tablets 100mg,1,"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment S-410 calibrated 35 days before batch run, exceeds 30-day interval'}]","QA Review Summary for BR-202605-0096:
+
+Critical finding: Equipment S-410, used in the production of Brivaracetam Tablets 100mg, was calibrated 35 days prior to the batch run, exceeding the 30-day calibration interval. This is significant as it may affect the accuracy and reliability of the equipment, potentially impacting product quality.
+
+Recommended next step: Conduct a thorough investigation to assess the impact of the calibration lapse on the batch. Re-calibration of Equipment S-410 is required. Depending on the investigation outcome, consider retesting the batch or discarding it to ensure compliance with GMP standards."
+TO-202604-0114,Topiramate Tablets 100mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.8kPa is outside spec range 6-10kPa'}]","**QA Review Summary for Batch TO-202604-0114**
+
+**Exception Finding:** OOS_HARDNESS - Tablet hardness recorded at 4.8 kPa, which is below the specified range of 6-10 kPa.
+
+**Significance:** Tablet hardness is a critical quality attribute affecting product stability, dissolution rate, and patient safety. A value below the specification could lead to inconsistent drug release and potential efficacy issues.
+
+**Recommended Action:** Conduct a thorough investigation to determine the root cause of the OOS result. This should include reviewing manufacturing parameters, raw material quality, and equipment calibration. Depending on the investigation outcomes, consider retesting a retained sample or performing a disposition review to assess the impact on batch release."
+TO-202601-0122,Topiramate Tablets 100mg,1,"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment S-410 calibrated 35 days before batch run, exceeds 30-day interval'}]","**QA Review Summary for Batch TO-202601-0122**
+
+**Finding:** Equipment S-410 calibration expired 35 days prior to batch run, exceeding the 30-day interval.
+
+**Significance:** This critical deviation impacts the reliability of data collected during the batch production, potentially compromising product quality and compliance with GMP standards.
+
+**Recommended Action:** Conduct a thorough investigation to assess the impact on batch quality. Consider retesting critical quality attributes. Depending on investigation outcomes, batch disposition may range from release with conditions to rejection. Document all findings and actions taken."
+LA-202606-0126,Lamotrigine Tablets 200mg,1,"[{'code': 'OOS_WEIGHT', 'severity': 'High', 'evidence': 'Tablet weight 210.5mg is outside spec range 195-205mg'}]","**QA Review Summary for Batch LA-202606-0126**
+
+**Exception Finding:**
+- An Out-Of-Specification (OOS) result was identified where the tablet weight of 210.5mg exceeds the specified range of 195-205mg.
+
+**Importance:**
+- Tablet weight deviation impacts dosage accuracy and patient safety. It may indicate a process control issue in manufacturing.
+
+**Recommended Action:**
+- Conduct a thorough investigation to determine the root cause of the OOS result. Review process parameters and raw material attributes. Consider retesting a retained sample to confirm the initial finding. Based on investigation outcomes, decide whether to reject the batch, implement corrective actions, and retest, or approve with justified deviation if patient safety and efficacy are not compromised. Document all findings and decisions per GMP requirements."
+TO-202604-0130,Topiramate Tablets 100mg,1,"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment P-118 calibrated 66 days before batch run, exceeds 60-day interval'}]","**QA Review Summary for Batch TO-202604-0130**
+
+**Finding:** Equipment P-118 calibration expired 66 days prior to batch run, exceeding the 60-day interval.
+
+**Importance:** Calibration ensures equipment accuracy and reliability. An expired calibration may lead to inaccurate measurements, affecting product quality and compliance with specifications.
+
+**Recommended Action:** Per GMP, conduct a thorough investigation to assess the impact on batch quality. Review all data generated using Equipment P-118. If the investigation confirms no adverse impact, consider batch release with documented justification. If impact is uncertain, batch disposition should be hold for further review or reject to ensure product quality and regulatory compliance."
+BR-202606-0131,Brivaracetam Tablets 100mg,1,"[{'code': 'TIMING_GAP', 'severity': 'Medium', 'evidence': 'Hold time 45.9h exceeds validated maximum 24h'}]","QA Review Summary for BR-202606-0131:
+
+An exception was identified where the hold time of 45.9 hours exceeded the validated maximum of 24 hours. This is significant as prolonged hold times can impact product stability and quality, potentially leading to degradation or altered efficacy. Per GMP practices, it is recommended to conduct a thorough investigation into the cause of the timing gap. Assess the impact on product quality through stability testing. If the product is found to meet all specifications and quality criteria post-investigation, a justified disposition to release may be considered. Otherwise, the batch should be rejected."
+BR-202603-0133,Brivaracetam Tablets 100mg,1,"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 32.1C outside validated range 20-25C'}]","**QA Review Summary for BR-202603-0133**
+
+**Finding:** Process temperature recorded at 32.1°C, outside the validated range of 20-25°C.
+
+**Significance:** Temperature deviations can impact product quality and stability, potentially leading to degradation or altered efficacy.
+
+**Recommended Action:** Conduct a thorough investigation to determine the root cause of the temperature deviation. Assess the impact on batch quality through stability testing and review. If the investigation confirms no adverse impact and stability is maintained, consider approving the batch with documented justification. If adverse impact is confirmed, reject the batch. Implement corrective actions to prevent recurrence."
+LA-202603-0168,Lamotrigine Tablets 200mg,1,"[{'code': 'EXPIRED_CALIBRATION', 'severity': 'Critical', 'evidence': 'Equipment D-302 calibrated 33 days before batch run, exceeds 30-day interval'}]","**QA Review Summary for Batch LA-202603-0168**
+
+**Finding:** Equipment D-302 was calibrated 33 days prior to batch run, exceeding the 30-day calibration interval.
+
+**Significance:** This expired calibration poses a critical risk to data integrity and product quality, as inaccurate measurements may have been recorded.
+
+**Recommended Action:** Per GMP, conduct a full investigation to assess the impact on batch quality. Consider retesting critical quality attributes. Depending on investigation outcomes, batch disposition may range from release with conditions to rejection. Notify relevant departments and update calibration procedures to prevent future occurrences."
+TO-202604-0174,Topiramate Tablets 100mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.7kPa is outside spec range 6-10kPa'}]","**QA Review Summary for Batch TO-202604-0174**
+
+**Exception Finding:** OOS_HARDNESS - Tablet hardness recorded at 4.7kPa, which is below the specified range of 6-10kPa.
+
+**Significance:** Tablet hardness is critical for ensuring consistent disintegration and dissolution, directly impacting drug bioavailability and patient safety. An OOS result indicates potential issues with product quality and efficacy.
+
+**Recommended Action:** Conduct a thorough investigation to determine the root cause of the hardness deviation. This should include reviewing manufacturing parameters, raw material attributes, and equipment calibration. Depending on the investigation outcomes, consider reprocessing or rejecting the batch to ensure compliance with GMP standards."
+BR-202606-0175,Brivaracetam Tablets 100mg,1,"[{'code': 'TEMP_DEVIATION', 'severity': 'Medium', 'evidence': 'Process temperature 30.9C outside validated range 20-25C'}]","QA Review Summary for BR-202606-0175:
+
+A temperature deviation was identified where the process temperature reached 30.9°C, exceeding the validated range of 20-25°C. This deviation is significant as it may affect the stability and efficacy of Brivaracetam Tablets. Per GMP practices, a thorough investigation is required to determine the root cause and assess the impact on product quality. Recommend placing the batch on hold until the investigation is complete and appropriate corrective actions are implemented. Final disposition will depend on the investigation outcomes."
+LA-202602-0180,Lamotrigine Tablets 200mg,1,"[{'code': 'OOS_DISSOLUTION', 'severity': 'Critical', 'evidence': 'Dissolution 75.1% is below minimum 80.0%'}]","**QA Review Summary for Batch LA-202602-0180**
+
+**Exception Finding:** Critical OOS (Out of Specification) dissolution result of 75.1%, below the required minimum of 80.0%.
+
+**Importance:** Dissolution is a critical quality attribute for Lamotrigine Tablets, ensuring proper drug release and bioavailability. An OOS result indicates potential failure to meet therapeutic efficacy and patient safety standards.
+
+**Recommended Action:** Per GMP practice, conduct a thorough investigation to determine root cause. Implement corrective and preventive actions (CAPA) if necessary. Consider batch rejection unless a justified and approved deviation can be established. Recommend retesting a fresh sample to confirm the initial result."
+BR-202603-0182,Brivaracetam Tablets 100mg,1,"[{'code': 'MISSING_SIGNATURE', 'severity': 'Critical', 'evidence': 'QA signature is missing from the final release section'}]","**QA Review Summary for Batch BR-202603-0182**
+
+**Finding:** Critical - MISSING_SIGNATURE: QA signature is absent in the final release section.
+
+**Importance:** The absence of a QA signature is a critical GMP non-compliance, as it indicates that the final quality check and approval were not formally documented. This compromises the integrity and traceability of the batch release process.
+
+**Recommended Action:** The batch should be placed on hold until the QA signature is obtained. Verify the reason for the missing signature and ensure all necessary quality checks were performed. Once confirmed, have QA sign the release section and document the resolution. Proceed with batch release only after confirmation of compliance."
+BR-202602-0185,Brivaracetam Tablets 100mg,1,"[{'code': 'OOS_HARDNESS', 'severity': 'High', 'evidence': 'Tablet hardness 4.1kPa is outside spec range 5-9kPa'}]","QA Review Summary for BR-202602-0185:
+
+An Out-Of-Specification (OOS) result was identified for tablet hardness, recording 4.1 kPa against the specification range of 5-9 kPa. This is critical as tablet hardness directly impacts drug dissolution and patient bioavailability. Per GMP, conduct a thorough investigation to determine root cause. Options include retesting to confirm OOS, disposition as reject if confirmed, or consider reprocessing if feasible and justified. Recommend immediate review and decision by QA to ensure compliance and product quality."
+TO-202601-0192,Topiramate Tablets 100mg,1,"[{'code': 'OOS_WEIGHT', 'severity': 'High', 'evidence': 'Tablet weight 107.8mg is outside spec range 98-102mg'}]","**QA Review Summary for Batch TO-202601-0192**
+
+**Exception:** OOS_WEIGHT - Tablet weight of 107.8mg is outside the specified range of 98-102mg.
+
+**Significance:** This deviation from the specified weight range may affect drug efficacy and patient safety, as it indicates a potential issue with the manufacturing process.
+
+**Recommended Action:** Conduct a thorough investigation to determine the root cause of the weight variation. Review process parameters and raw material quality. Consider retesting a subset of tablets to confirm the deviation. Depending on the investigation outcomes, either adjust the process and retest the batch or reject the batch to ensure compliance with GMP standards."

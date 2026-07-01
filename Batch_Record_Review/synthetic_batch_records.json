@@ -1,0 +1,4902 @@
+[
+  {
+    "batch_id": "LE-202601-0001",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-01-08",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2025-12-15",
+      "M-204": "2025-12-25"
+    },
+    "tablet_weight_mg": 747.7,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 95.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0002",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-05",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-02-26",
+      "M-204": "2026-02-03"
+    },
+    "tablet_weight_mg": 751.8,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 87.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0003",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-05",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-07",
+      "D-302": "2026-01-17"
+    },
+    "tablet_weight_mg": 742.0,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.2,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 93.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0004",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-01",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-14",
+      "D-302": "2026-01-27"
+    },
+    "tablet_weight_mg": 753.7,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0005",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-27",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-01-12",
+      "S-410": "2026-02-15"
+    },
+    "tablet_weight_mg": 202.7,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 87.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202604-0006",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-04-03",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-31",
+      "D-302": "2026-03-16"
+    },
+    "tablet_weight_mg": 744.3,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 92.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0007",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-03",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-21",
+      "D-302": "2026-05-26"
+    },
+    "tablet_weight_mg": 199.5,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.3,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 93.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0008",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-09",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-10",
+      "M-204": "2025-11-19"
+    },
+    "tablet_weight_mg": 743.5,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 90.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202603-0009",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-10",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-02-15",
+      "P-118": "2026-01-25"
+    },
+    "tablet_weight_mg": 99.6,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 91.8,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202603-0010",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-19",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-01",
+      "M-204": "2025-12-27"
+    },
+    "tablet_weight_mg": 100.1,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.3,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 90.4,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202606-0011",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-19",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-06-08",
+      "M-204": "2026-04-28"
+    },
+    "tablet_weight_mg": 100.9,
+    "weight_spec": "95-105",
+    "hardness_kpa": 5.9,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 90.6,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0012",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-03",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-04-12",
+      "M-204": "2026-03-05"
+    },
+    "tablet_weight_mg": 103.6,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.6,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 97.3,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202604-0013",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-04-19",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-12",
+      "D-302": "2026-04-06"
+    },
+    "tablet_weight_mg": 98.4,
+    "weight_spec": "95-105",
+    "hardness_kpa": 5.6,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 96.2,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": false,
+    "exceptions": [
+      "LOT_MISMATCH"
+    ],
+    "lot_number_recorded": "LOT-4593",
+    "lot_number_issued": "LOT-3266"
+  },
+  {
+    "batch_id": "LE-202606-0014",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-06-08",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-04-14",
+      "S-410": "2026-05-19"
+    },
+    "tablet_weight_mg": 748.9,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 91.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0015",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-30",
+    "operator": "James Miller",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-08",
+      "D-302": "2026-01-06"
+    },
+    "tablet_weight_mg": 99.1,
+    "weight_spec": "98-102",
+    "hardness_kpa": 4.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "LA-202604-0016",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-04-22",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-04-16",
+      "M-204": "2026-02-22"
+    },
+    "tablet_weight_mg": 201.3,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 92.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202605-0017",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-16",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-23",
+      "D-302": "2026-04-25"
+    },
+    "tablet_weight_mg": 200.4,
+    "weight_spec": "195-205",
+    "hardness_kpa": 7.9,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 98.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": false,
+    "lot_number_match": true,
+    "exceptions": [
+      "MISSING_SIGNATURE"
+    ]
+  },
+  {
+    "batch_id": "BR-202606-0018",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-03",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-05-31",
+      "D-302": "2026-05-30"
+    },
+    "tablet_weight_mg": 102.2,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 98.1,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": false,
+    "exceptions": [
+      "LOT_MISMATCH"
+    ],
+    "lot_number_recorded": "LOT-6038",
+    "lot_number_issued": "LOT-4923"
+  },
+  {
+    "batch_id": "LE-202604-0019",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-04-23",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-13",
+      "D-302": "2026-03-29"
+    },
+    "tablet_weight_mg": 751.8,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 75.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_DISSOLUTION"
+    ]
+  },
+  {
+    "batch_id": "BR-202601-0020",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-04",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2025-12-17",
+      "S-410": "2025-12-10"
+    },
+    "tablet_weight_mg": 97.6,
+    "weight_spec": "95-105",
+    "hardness_kpa": 5.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 92.9,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202606-0021",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-27",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-06-10",
+      "P-118": "2026-05-29"
+    },
+    "tablet_weight_mg": 99.1,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.2,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 97.5,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202601-0022",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-10",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-10-26",
+      "P-118": "2025-12-26"
+    },
+    "tablet_weight_mg": 107.4,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.3,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.9,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_WEIGHT"
+    ]
+  },
+  {
+    "batch_id": "BR-202604-0023",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-04-18",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-11",
+      "S-410": "2026-04-10"
+    },
+    "tablet_weight_mg": 97.1,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 90.7,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0024",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-02",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-16",
+      "D-302": "2026-04-16"
+    },
+    "tablet_weight_mg": 101.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 87.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0025",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-20",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-03-26",
+      "S-410": "2026-05-06"
+    },
+    "tablet_weight_mg": 96.0,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.1,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 96.4,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202601-0026",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-01-18",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-01-04",
+      "S-410": "2026-01-10"
+    },
+    "tablet_weight_mg": 754.1,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202603-0027",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-03-29",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-02-27",
+      "S-410": "2026-03-21"
+    },
+    "tablet_weight_mg": 99.7,
+    "weight_spec": "98-102",
+    "hardness_kpa": 4.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "LE-202606-0028",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-06-09",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-05-09",
+      "D-302": "2026-06-03"
+    },
+    "tablet_weight_mg": 752.2,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 85.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202606-0029",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-06-24",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-05-30",
+      "S-410": "2026-06-23"
+    },
+    "tablet_weight_mg": 99.6,
+    "weight_spec": "98-102",
+    "hardness_kpa": 7.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 95.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0030",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-03",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-29",
+      "P-118": "2026-05-21"
+    },
+    "tablet_weight_mg": 201.1,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.3,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 91.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202604-0031",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-04-10",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-04-03",
+      "D-302": "2026-03-22"
+    },
+    "tablet_weight_mg": 743.2,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 95.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202606-0032",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-24",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-06-15",
+      "D-302": "2026-06-04"
+    },
+    "tablet_weight_mg": 100.5,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.9,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.4,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202602-0033",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-02-13",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-24",
+      "M-204": "2026-02-02"
+    },
+    "tablet_weight_mg": 100.2,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.8,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 90.2,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "TEMP_DEVIATION"
+    ],
+    "process_temp_c": 32.6,
+    "process_temp_spec": "20-25"
+  },
+  {
+    "batch_id": "LA-202603-0034",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-04",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-02-23",
+      "M-204": "2026-01-12"
+    },
+    "tablet_weight_mg": 196.9,
+    "weight_spec": "195-205",
+    "hardness_kpa": 7.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 93.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202605-0035",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-28",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-13",
+      "P-118": "2026-04-18"
+    },
+    "tablet_weight_mg": 198.5,
+    "weight_spec": "195-205",
+    "hardness_kpa": 6.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 97.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "LA-202605-0036",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-06",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-12",
+      "S-410": "2026-04-26"
+    },
+    "tablet_weight_mg": 198.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.7,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 95.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0037",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-13",
+    "operator": "James Miller",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-01-26",
+      "D-302": "2026-02-04"
+    },
+    "tablet_weight_mg": 197.8,
+    "weight_spec": "195-205",
+    "hardness_kpa": 5.2,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 89.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "BR-202605-0038",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-03",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-04-26",
+      "P-118": "2026-03-20"
+    },
+    "tablet_weight_mg": 97.3,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 97.3,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0039",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-12",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-22",
+      "P-118": "2026-01-15"
+    },
+    "tablet_weight_mg": 201.1,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.3,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 96.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202601-0040",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-01-14",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-12-24",
+      "P-118": "2025-11-27"
+    },
+    "tablet_weight_mg": 744.4,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 92.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0041",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-25",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-11-16",
+      "S-410": "2026-01-23"
+    },
+    "tablet_weight_mg": 100.6,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 89.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0042",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-11",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-04-29",
+      "M-204": "2026-05-05"
+    },
+    "tablet_weight_mg": 96.9,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.1,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 93.8,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0043",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-18",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-29",
+      "D-302": "2026-04-30"
+    },
+    "tablet_weight_mg": 102.5,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.2,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 90.1,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0044",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-17",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2025-12-21",
+      "M-204": "2026-01-13"
+    },
+    "tablet_weight_mg": 100.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 7.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0045",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-21",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-06-15",
+      "D-302": "2026-05-29"
+    },
+    "tablet_weight_mg": 197.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 5.9,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 98.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "TO-202606-0046",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-06-12",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-05-23",
+      "M-204": "2026-05-13"
+    },
+    "tablet_weight_mg": 99.6,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.1,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 94.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": false,
+    "lot_number_match": true,
+    "exceptions": [
+      "MISSING_SIGNATURE"
+    ]
+  },
+  {
+    "batch_id": "BR-202603-0047",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-01",
+    "operator": "James Miller",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-02-04",
+      "P-118": "2026-02-11"
+    },
+    "tablet_weight_mg": 98.9,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.6,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 98.7,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": false,
+    "exceptions": [
+      "LOT_MISMATCH"
+    ],
+    "lot_number_recorded": "LOT-9346",
+    "lot_number_issued": "LOT-7548"
+  },
+  {
+    "batch_id": "LA-202602-0048",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-12",
+    "operator": "James Miller",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-11-29",
+      "S-410": "2026-02-03"
+    },
+    "tablet_weight_mg": 198.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.0,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 89.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202602-0049",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-02-12",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-01-23",
+      "S-410": "2026-01-26"
+    },
+    "tablet_weight_mg": 99.6,
+    "weight_spec": "98-102",
+    "hardness_kpa": 4.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 93.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "LA-202604-0050",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-04-23",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-15",
+      "D-302": "2026-04-05"
+    },
+    "tablet_weight_mg": 200.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 7.5,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 88.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202601-0051",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-16",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2025-12-27",
+      "P-118": "2025-12-26"
+    },
+    "tablet_weight_mg": 103.3,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.1,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 91.3,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202606-0052",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-06-09",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-29",
+      "S-410": "2026-05-27"
+    },
+    "tablet_weight_mg": 749.8,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0053",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-22",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-12",
+      "S-410": "2026-05-03"
+    },
+    "tablet_weight_mg": 101.4,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.9,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 92.1,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202601-0054",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-01-12",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2025-12-24",
+      "P-118": "2025-12-04"
+    },
+    "tablet_weight_mg": 754.1,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 93.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202603-0055",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-03-07",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-02-11",
+      "P-118": "2026-02-24"
+    },
+    "tablet_weight_mg": 100.3,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.1,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0056",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-01",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-02-21",
+      "M-204": "2026-02-03"
+    },
+    "tablet_weight_mg": 202.7,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 87.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202606-0057",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-06-14",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-05-18",
+      "S-410": "2026-05-24"
+    },
+    "tablet_weight_mg": 741.7,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 94.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": false,
+    "lot_number_match": true,
+    "exceptions": [
+      "MISSING_SIGNATURE"
+    ]
+  },
+  {
+    "batch_id": "TO-202606-0058",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-06-18",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-28",
+      "P-118": "2026-05-04"
+    },
+    "tablet_weight_mg": 99.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202606-0059",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-06-02",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-31",
+      "M-204": "2026-03-22"
+    },
+    "tablet_weight_mg": 752.6,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 94.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": false,
+    "lot_number_match": true,
+    "exceptions": [
+      "MISSING_SIGNATURE"
+    ]
+  },
+  {
+    "batch_id": "LE-202606-0060",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-06-06",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-12",
+      "M-204": "2026-04-10"
+    },
+    "tablet_weight_mg": 748.0,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0061",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-18",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-09",
+      "M-204": "2026-04-16"
+    },
+    "tablet_weight_mg": 99.7,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0062",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-07",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-23",
+      "D-302": "2026-02-04"
+    },
+    "tablet_weight_mg": 203.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.2,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 94.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202601-0063",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-20",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-01-15",
+      "P-118": "2026-01-10"
+    },
+    "tablet_weight_mg": 102.5,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.2,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.8,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0064",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-03",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-11",
+      "M-204": "2026-02-22"
+    },
+    "tablet_weight_mg": 97.9,
+    "weight_spec": "95-105",
+    "hardness_kpa": 5.6,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 98.1,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0065",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-02",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-06",
+      "S-410": "2026-02-05"
+    },
+    "tablet_weight_mg": 757.2,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 89.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202604-0066",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-11",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-16",
+      "P-118": "2026-03-07"
+    },
+    "tablet_weight_mg": 99.7,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202602-0067",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-02-10",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-25",
+      "M-204": "2026-02-06"
+    },
+    "tablet_weight_mg": 103.1,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 95.8,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202604-0068",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-01",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-06",
+      "S-410": "2026-03-13"
+    },
+    "tablet_weight_mg": 99.2,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0069",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-14",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-12-16",
+      "D-302": "2026-02-08"
+    },
+    "tablet_weight_mg": 751.9,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202606-0070",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-06-21",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-06-10",
+      "M-204": "2026-03-18"
+    },
+    "tablet_weight_mg": 100.3,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 87.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "EXPIRED_CALIBRATION"
+    ]
+  },
+  {
+    "batch_id": "TO-202604-0071",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-16",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-03-18",
+      "D-302": "2026-03-26"
+    },
+    "tablet_weight_mg": 100.1,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 94.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0072",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-13",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-11-25",
+      "S-410": "2026-02-08"
+    },
+    "tablet_weight_mg": 745.0,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": false,
+    "lot_number_match": true,
+    "exceptions": [
+      "MISSING_SIGNATURE"
+    ]
+  },
+  {
+    "batch_id": "LE-202602-0073",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-22",
+    "operator": "James Miller",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-02-11",
+      "S-410": "2026-02-02"
+    },
+    "tablet_weight_mg": 746.9,
+    "weight_spec": "740-760",
+    "hardness_kpa": 4.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 94.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "LA-202606-0074",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-22",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-04-09",
+      "D-302": "2026-05-31"
+    },
+    "tablet_weight_mg": 202.8,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.5,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 93.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "TEMP_DEVIATION"
+    ],
+    "process_temp_c": 30.8,
+    "process_temp_spec": "20-25"
+  },
+  {
+    "batch_id": "LE-202606-0075",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-06-06",
+    "operator": "James Miller",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-16",
+      "M-204": "2026-03-25"
+    },
+    "tablet_weight_mg": 742.7,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202605-0076",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-31",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-14",
+      "D-302": "2026-05-10"
+    },
+    "tablet_weight_mg": 198.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.6,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 90.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0077",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-13",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-04-22",
+      "M-204": "2026-03-15"
+    },
+    "tablet_weight_mg": 100.8,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 96.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202604-0078",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-02",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-03",
+      "D-302": "2026-03-19"
+    },
+    "tablet_weight_mg": 100.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 91.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0079",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-02",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-18",
+      "M-204": "2026-05-01"
+    },
+    "tablet_weight_mg": 197.6,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.8,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 88.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0080",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-24",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-01-18",
+      "M-204": "2025-11-22"
+    },
+    "tablet_weight_mg": 99.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 87.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0081",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-06",
+    "operator": "James Miller",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-20",
+      "P-118": "2026-05-24"
+    },
+    "tablet_weight_mg": 203.5,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.5,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 97.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0082",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-14",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2025-12-24",
+      "D-302": "2025-12-22"
+    },
+    "tablet_weight_mg": 99.7,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "TIMING_GAP"
+    ],
+    "hold_time_hours": 35.3,
+    "hold_time_spec_max": 24
+  },
+  {
+    "batch_id": "LA-202603-0083",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-20",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-02-05",
+      "S-410": "2026-03-01"
+    },
+    "tablet_weight_mg": 199.4,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.6,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 98.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": false,
+    "exceptions": [
+      "LOT_MISMATCH"
+    ],
+    "lot_number_recorded": "LOT-8753",
+    "lot_number_issued": "LOT-9698"
+  },
+  {
+    "batch_id": "LA-202603-0084",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-28",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-03-18",
+      "S-410": "2026-03-19"
+    },
+    "tablet_weight_mg": 202.8,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.3,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 90.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0085",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-30",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-23",
+      "M-204": "2026-03-29"
+    },
+    "tablet_weight_mg": 102.8,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.4,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 91.5,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0086",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-20",
+    "operator": "James Miller",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-01",
+      "S-410": "2026-03-14"
+    },
+    "tablet_weight_mg": 200.5,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.5,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 94.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202606-0087",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-16",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-24",
+      "M-204": "2026-05-30"
+    },
+    "tablet_weight_mg": 100.6,
+    "weight_spec": "95-105",
+    "hardness_kpa": 5.6,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 95.5,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202602-0088",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-02-13",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-12-13",
+      "S-410": "2026-01-29"
+    },
+    "tablet_weight_mg": 101.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 92.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0089",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-21",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-02-08",
+      "P-118": "2026-01-20"
+    },
+    "tablet_weight_mg": 756.8,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 94.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0090",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-23",
+    "operator": "James Miller",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-07",
+      "M-204": "2026-03-07"
+    },
+    "tablet_weight_mg": 753.6,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 89.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "TEMP_DEVIATION"
+    ],
+    "process_temp_c": 32.2,
+    "process_temp_spec": "20-25"
+  },
+  {
+    "batch_id": "BR-202605-0091",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-17",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-04-28",
+      "P-118": "2026-04-19"
+    },
+    "tablet_weight_mg": 102.5,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.1,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 97.8,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0092",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-10",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-11-17",
+      "S-410": "2026-02-07"
+    },
+    "tablet_weight_mg": 757.4,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 92.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202602-0093",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-02-25",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-12-29",
+      "S-410": "2026-02-02"
+    },
+    "tablet_weight_mg": 102.4,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 96.3,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "TIMING_GAP"
+    ],
+    "hold_time_hours": 31.7,
+    "hold_time_spec_max": 24
+  },
+  {
+    "batch_id": "LA-202606-0094",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-08",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-18",
+      "M-204": "2026-03-24"
+    },
+    "tablet_weight_mg": 202.4,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.3,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 89.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202603-0095",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-05",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-02-24",
+      "M-204": "2026-02-14"
+    },
+    "tablet_weight_mg": 99.0,
+    "weight_spec": "95-105",
+    "hardness_kpa": 5.6,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 95.2,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0096",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-11",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-07",
+      "S-410": "2026-04-06"
+    },
+    "tablet_weight_mg": 96.3,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.9,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.9,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "EXPIRED_CALIBRATION"
+    ]
+  },
+  {
+    "batch_id": "TO-202604-0097",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-11",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-18",
+      "M-204": "2026-02-28"
+    },
+    "tablet_weight_mg": 99.6,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 85.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0098",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-15",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-12-31",
+      "S-410": "2026-03-13"
+    },
+    "tablet_weight_mg": 741.7,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.1,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 90.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202602-0099",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-02-27",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-02-21",
+      "D-302": "2026-02-08"
+    },
+    "tablet_weight_mg": 97.0,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.1,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 96.9,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0100",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-13",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-03-31",
+      "P-118": "2026-04-22"
+    },
+    "tablet_weight_mg": 99.4,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0101",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-25",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-03",
+      "P-118": "2026-04-29"
+    },
+    "tablet_weight_mg": 96.4,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.1,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.9,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202605-0102",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-05-27",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-16",
+      "M-204": "2026-05-12"
+    },
+    "tablet_weight_mg": 752.5,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202603-0103",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-03-18",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-03-11",
+      "D-302": "2026-03-11"
+    },
+    "tablet_weight_mg": 100.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 7.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 96.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202602-0104",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-02-21",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-02-03",
+      "M-204": "2026-02-04"
+    },
+    "tablet_weight_mg": 99.5,
+    "weight_spec": "98-102",
+    "hardness_kpa": 7.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0105",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-24",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-01",
+      "M-204": "2026-05-03"
+    },
+    "tablet_weight_mg": 99.1,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 96.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0106",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-26",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-11",
+      "M-204": "2026-03-10"
+    },
+    "tablet_weight_mg": 753.5,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 87.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202601-0107",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-14",
+    "operator": "James Miller",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2025-12-31",
+      "D-302": "2025-12-29"
+    },
+    "tablet_weight_mg": 97.3,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.2,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.9,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202604-0108",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-04-02",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-26",
+      "D-302": "2026-03-13"
+    },
+    "tablet_weight_mg": 101.7,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 92.5,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202604-0109",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-04-17",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-11",
+      "P-118": "2026-03-30"
+    },
+    "tablet_weight_mg": 103.6,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.8,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 95.0,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202605-0110",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-28",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-13",
+      "S-410": "2026-05-10"
+    },
+    "tablet_weight_mg": 200.9,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.7,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 88.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0111",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-12",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-20",
+      "P-118": "2026-05-27"
+    },
+    "tablet_weight_mg": 198.8,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.9,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 85.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202603-0112",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-13",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-02-18",
+      "M-204": "2026-01-23"
+    },
+    "tablet_weight_mg": 96.9,
+    "weight_spec": "95-105",
+    "hardness_kpa": 5.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 90.4,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202603-0113",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-29",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-25",
+      "M-204": "2026-01-31"
+    },
+    "tablet_weight_mg": 102.8,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.7,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.3,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202604-0114",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-05",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-01-11",
+      "D-302": "2026-03-31"
+    },
+    "tablet_weight_mg": 99.2,
+    "weight_spec": "98-102",
+    "hardness_kpa": 4.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 91.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "LA-202605-0115",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-13",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-04-21",
+      "D-302": "2026-04-25"
+    },
+    "tablet_weight_mg": 197.4,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.8,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 90.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0116",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-20",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-12",
+      "D-302": "2026-02-27"
+    },
+    "tablet_weight_mg": 200.9,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.5,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 85.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202605-0117",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-28",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-05-21",
+      "D-302": "2026-05-03"
+    },
+    "tablet_weight_mg": 199.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 92.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202601-0118",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-01-27",
+    "operator": "James Miller",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-25",
+      "M-204": "2025-12-16"
+    },
+    "tablet_weight_mg": 756.4,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 87.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0119",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-11",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-03-03",
+      "P-118": "2026-02-05"
+    },
+    "tablet_weight_mg": 196.6,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.5,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 85.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202601-0120",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-04",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2025-11-25",
+      "M-204": "2025-12-04"
+    },
+    "tablet_weight_mg": 100.7,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 95.2,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202602-0121",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-02-12",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-26",
+      "S-410": "2026-01-21"
+    },
+    "tablet_weight_mg": 99.1,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.1,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0122",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-14",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2025-12-30",
+      "S-410": "2025-12-10"
+    },
+    "tablet_weight_mg": 100.1,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 90.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "EXPIRED_CALIBRATION"
+    ]
+  },
+  {
+    "batch_id": "LA-202605-0123",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-25",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-05-09",
+      "S-410": "2026-05-12"
+    },
+    "tablet_weight_mg": 203.7,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 87.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0124",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-12",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-02-11",
+      "M-204": "2025-12-01"
+    },
+    "tablet_weight_mg": 196.6,
+    "weight_spec": "195-205",
+    "hardness_kpa": 7.6,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 85.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0125",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-12",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-04",
+      "P-118": "2026-01-30"
+    },
+    "tablet_weight_mg": 742.7,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0126",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-18",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-05-29",
+      "D-302": "2026-06-03"
+    },
+    "tablet_weight_mg": 210.5,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.2,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 85.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_WEIGHT"
+    ]
+  },
+  {
+    "batch_id": "LE-202604-0127",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-04-30",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-04-23",
+      "P-118": "2026-04-21"
+    },
+    "tablet_weight_mg": 755.7,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0128",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-24",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-06-14",
+      "M-204": "2026-05-11"
+    },
+    "tablet_weight_mg": 201.6,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 97.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0129",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-17",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-11-06",
+      "S-410": "2026-01-05"
+    },
+    "tablet_weight_mg": 100.5,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.0,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202604-0130",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-11",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-22",
+      "P-118": "2026-02-04"
+    },
+    "tablet_weight_mg": 99.4,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 96.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "EXPIRED_CALIBRATION"
+    ]
+  },
+  {
+    "batch_id": "BR-202606-0131",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-19",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-29",
+      "M-204": "2026-06-10"
+    },
+    "tablet_weight_mg": 103.9,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.7,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 93.3,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "TIMING_GAP"
+    ],
+    "hold_time_hours": 45.9,
+    "hold_time_spec_max": 24
+  },
+  {
+    "batch_id": "TO-202605-0132",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-25",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-04-16",
+      "S-410": "2026-05-09"
+    },
+    "tablet_weight_mg": 100.6,
+    "weight_spec": "98-102",
+    "hardness_kpa": 7.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202603-0133",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-03",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-19",
+      "S-410": "2026-02-07"
+    },
+    "tablet_weight_mg": 102.9,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.8,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 96.8,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "TEMP_DEVIATION"
+    ],
+    "process_temp_c": 32.1,
+    "process_temp_spec": "20-25"
+  },
+  {
+    "batch_id": "TO-202603-0134",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-03-29",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-03-24",
+      "P-118": "2026-02-12"
+    },
+    "tablet_weight_mg": 100.5,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202606-0135",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-06-03",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-12",
+      "M-204": "2026-04-16"
+    },
+    "tablet_weight_mg": 100.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.1,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 89.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202605-0136",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-09",
+    "operator": "James Miller",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-04-23",
+      "P-118": "2026-03-15"
+    },
+    "tablet_weight_mg": 203.2,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.6,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 85.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0137",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-03",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2025-12-14",
+      "D-302": "2026-01-23"
+    },
+    "tablet_weight_mg": 757.3,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 89.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202601-0138",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-03",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2025-11-11",
+      "M-204": "2025-12-04"
+    },
+    "tablet_weight_mg": 103.6,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 95.2,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0139",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-02",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-21",
+      "P-118": "2026-04-15"
+    },
+    "tablet_weight_mg": 101.1,
+    "weight_spec": "95-105",
+    "hardness_kpa": 6.8,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 92.6,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202606-0140",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-06-17",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-05-17",
+      "S-410": "2026-05-29"
+    },
+    "tablet_weight_mg": 746.9,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 95.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202602-0141",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-02-07",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-01-21",
+      "M-204": "2026-01-23"
+    },
+    "tablet_weight_mg": 102.3,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 90.8,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0142",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-10",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2025-12-24",
+      "P-118": "2025-12-26"
+    },
+    "tablet_weight_mg": 100.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 92.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202604-0143",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-04-13",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-03-28",
+      "P-118": "2026-02-17"
+    },
+    "tablet_weight_mg": 748.9,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 89.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202605-0144",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-05-27",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-24",
+      "D-302": "2026-05-16"
+    },
+    "tablet_weight_mg": 743.1,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 95.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0145",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-29",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-02-18",
+      "S-410": "2026-03-12"
+    },
+    "tablet_weight_mg": 752.1,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0146",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-13",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-03-18",
+      "D-302": "2026-04-28"
+    },
+    "tablet_weight_mg": 100.4,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 96.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0147",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-14",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-04-20",
+      "P-118": "2026-05-07"
+    },
+    "tablet_weight_mg": 100.4,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0148",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-09",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-06-06",
+      "P-118": "2026-06-03"
+    },
+    "tablet_weight_mg": 203.9,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.6,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 90.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0149",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-15",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-02-25",
+      "M-204": "2026-03-07"
+    },
+    "tablet_weight_mg": 755.6,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0150",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-04",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-05-28",
+      "P-118": "2026-05-16"
+    },
+    "tablet_weight_mg": 202.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.6,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 86.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0151",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-19",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-11-26",
+      "D-302": "2026-02-03"
+    },
+    "tablet_weight_mg": 202.2,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.2,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 90.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202604-0152",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-04-08",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-03-14",
+      "S-410": "2026-03-30"
+    },
+    "tablet_weight_mg": 757.3,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 91.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202602-0153",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-02-13",
+    "operator": "James Miller",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-01-20",
+      "D-302": "2026-02-04"
+    },
+    "tablet_weight_mg": 99.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 7.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 85.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0154",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-13",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-02-08",
+      "P-118": "2026-01-07"
+    },
+    "tablet_weight_mg": 197.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 7.7,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 94.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0155",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-09",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-20",
+      "D-302": "2026-02-20"
+    },
+    "tablet_weight_mg": 754.4,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202604-0156",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-17",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-04-07",
+      "P-118": "2026-03-01"
+    },
+    "tablet_weight_mg": 99.7,
+    "weight_spec": "98-102",
+    "hardness_kpa": 7.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202605-0157",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-05-21",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-05-10",
+      "S-410": "2026-05-12"
+    },
+    "tablet_weight_mg": 745.0,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 85.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0158",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-19",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-10",
+      "D-302": "2026-05-12"
+    },
+    "tablet_weight_mg": 100.9,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202602-0159",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-02-01",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-01-10",
+      "P-118": "2025-12-19"
+    },
+    "tablet_weight_mg": 750.5,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.0,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0160",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-25",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-03-24",
+      "S-410": "2026-03-18"
+    },
+    "tablet_weight_mg": 200.4,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.6,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 92.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202601-0161",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-21",
+    "operator": "James Miller",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-13",
+      "S-410": "2026-01-20"
+    },
+    "tablet_weight_mg": 101.0,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.7,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.1,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202602-0162",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-02-26",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-24",
+      "M-204": "2025-12-16"
+    },
+    "tablet_weight_mg": 100.3,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.3,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0163",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-27",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-24",
+      "P-118": "2026-01-28"
+    },
+    "tablet_weight_mg": 196.4,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.3,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 98.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202606-0164",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-06-04",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-25",
+      "D-302": "2026-05-31"
+    },
+    "tablet_weight_mg": 203.1,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.8,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 93.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202604-0165",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-04-21",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-15",
+      "D-302": "2026-04-07"
+    },
+    "tablet_weight_mg": 198.2,
+    "weight_spec": "195-205",
+    "hardness_kpa": 7.9,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 91.5,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202606-0166",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-11",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-29",
+      "D-302": "2026-06-01"
+    },
+    "tablet_weight_mg": 98.8,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.3,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 90.7,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202602-0167",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-02-01",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-01-15",
+      "M-204": "2025-11-27"
+    },
+    "tablet_weight_mg": 103.8,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.7,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 96.3,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0168",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-18",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-02-13",
+      "S-410": "2026-03-13"
+    },
+    "tablet_weight_mg": 200.3,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 96.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "EXPIRED_CALIBRATION"
+    ]
+  },
+  {
+    "batch_id": "LE-202605-0169",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-05-31",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-12",
+      "D-302": "2026-05-12"
+    },
+    "tablet_weight_mg": 753.3,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 97.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0170",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-07",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2025-12-23",
+      "S-410": "2026-01-04"
+    },
+    "tablet_weight_mg": 100.6,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 95.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0171",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-09",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-02-20",
+      "S-410": "2026-03-06"
+    },
+    "tablet_weight_mg": 200.9,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.7,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 98.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0172",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-28",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "M-204",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-05-18",
+      "S-410": "2026-05-07"
+    },
+    "tablet_weight_mg": 100.7,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.5,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 85.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202603-0173",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-03-24",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-05",
+      "P-118": "2026-02-10"
+    },
+    "tablet_weight_mg": 747.8,
+    "weight_spec": "740-760",
+    "hardness_kpa": 9.1,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202604-0174",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-04-24",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-03",
+      "M-204": "2026-03-11"
+    },
+    "tablet_weight_mg": 99.3,
+    "weight_spec": "98-102",
+    "hardness_kpa": 4.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 90.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "BR-202606-0175",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-08",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-27",
+      "P-118": "2026-05-20"
+    },
+    "tablet_weight_mg": 103.8,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.2,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 97.5,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "TEMP_DEVIATION"
+    ],
+    "process_temp_c": 30.9,
+    "process_temp_spec": "20-25"
+  },
+  {
+    "batch_id": "LE-202605-0176",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-05-22",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-04",
+      "M-204": "2026-04-02"
+    },
+    "tablet_weight_mg": 749.4,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202603-0177",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-30",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-03-20",
+      "M-204": "2026-01-05"
+    },
+    "tablet_weight_mg": 96.5,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.2,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 97.3,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202605-0178",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-05-29",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-23",
+      "D-302": "2026-05-16"
+    },
+    "tablet_weight_mg": 101.0,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.7,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 92.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202604-0179",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-04-04",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-03-02",
+      "D-302": "2026-03-23"
+    },
+    "tablet_weight_mg": 202.2,
+    "weight_spec": "195-205",
+    "hardness_kpa": 10.5,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 96.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202602-0180",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-02-02",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-01-20",
+      "M-204": "2026-01-04"
+    },
+    "tablet_weight_mg": 198.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.8,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 75.1,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_DISSOLUTION"
+    ]
+  },
+  {
+    "batch_id": "LE-202601-0181",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-01-10",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "M-204",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-10-25",
+      "D-302": "2025-12-28"
+    },
+    "tablet_weight_mg": 758.2,
+    "weight_spec": "740-760",
+    "hardness_kpa": 8.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 88.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202603-0182",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-03-04",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "P-118",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-02-05",
+      "D-302": "2026-02-20"
+    },
+    "tablet_weight_mg": 101.4,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.4,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 93.2,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": false,
+    "lot_number_match": true,
+    "exceptions": [
+      "MISSING_SIGNATURE"
+    ]
+  },
+  {
+    "batch_id": "LA-202601-0183",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-01-18",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-02",
+      "M-204": "2025-12-24"
+    },
+    "tablet_weight_mg": 196.9,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.6,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 92.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0184",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-28",
+    "operator": "Jason Adams",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-22",
+      "P-118": "2025-12-06"
+    },
+    "tablet_weight_mg": 100.5,
+    "weight_spec": "98-102",
+    "hardness_kpa": 8.1,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 96.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202602-0185",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-02-16",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-01-29",
+      "M-204": "2026-02-02"
+    },
+    "tablet_weight_mg": 100.4,
+    "weight_spec": "95-105",
+    "hardness_kpa": 4.1,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 97.9,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_HARDNESS"
+    ]
+  },
+  {
+    "batch_id": "LA-202601-0186",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-01-30",
+    "operator": "Marvin Cooper",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-01-27",
+      "D-302": "2026-01-22"
+    },
+    "tablet_weight_mg": 199.2,
+    "weight_spec": "195-205",
+    "hardness_kpa": 7.8,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 85.4,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0187",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-04",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2025-12-29",
+      "P-118": "2026-02-08"
+    },
+    "tablet_weight_mg": 202.0,
+    "weight_spec": "195-205",
+    "hardness_kpa": 9.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 94.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202604-0188",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-04-24",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-04-20",
+      "M-204": "2026-01-30"
+    },
+    "tablet_weight_mg": 744.8,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.8,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 85.2,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202606-0189",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-04",
+    "operator": "James Miller",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "P-118",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "P-118": "2026-04-20",
+      "M-204": "2026-05-17"
+    },
+    "tablet_weight_mg": 98.8,
+    "weight_spec": "95-105",
+    "hardness_kpa": 7.3,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 93.5,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202603-0190",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-03-06",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-05",
+      "D-302": "2026-02-25"
+    },
+    "tablet_weight_mg": 99.9,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.4,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 89.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202606-0191",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-06-13",
+    "operator": "James Miller",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-06-03",
+      "M-204": "2026-05-28"
+    },
+    "tablet_weight_mg": 100.1,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 93.6,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202601-0192",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-01-16",
+    "operator": "Kirsten Oneill",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "S-410",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "S-410": "2025-12-27",
+      "M-204": "2025-11-08"
+    },
+    "tablet_weight_mg": 107.8,
+    "weight_spec": "98-102",
+    "hardness_kpa": 9.2,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": [
+      "OOS_WEIGHT"
+    ]
+  },
+  {
+    "batch_id": "BR-202601-0193",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-01-08",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "D-302": "2025-12-31",
+      "P-118": "2025-12-02"
+    },
+    "tablet_weight_mg": 97.2,
+    "weight_spec": "95-105",
+    "hardness_kpa": 8.5,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 94.4,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202605-0194",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-05-30",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Mary Gutierrez",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-14",
+      "M-204": "2026-05-24"
+    },
+    "tablet_weight_mg": 745.6,
+    "weight_spec": "740-760",
+    "hardness_kpa": 7.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 98.7,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0195",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-19",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "S-410"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-03-16",
+      "S-410": "2026-03-07"
+    },
+    "tablet_weight_mg": 199.9,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.4,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 93.9,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LE-202605-0196",
+    "product": "Levetiracetam Tablets 750mg",
+    "batch_date": "2026-05-18",
+    "operator": "Thomas Rubio",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-04-30",
+      "M-204": "2026-04-04"
+    },
+    "tablet_weight_mg": 745.3,
+    "weight_spec": "740-760",
+    "hardness_kpa": 6.6,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 86.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "BR-202605-0197",
+    "product": "Brivaracetam Tablets 100mg",
+    "batch_date": "2026-05-24",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Kathleen Meyer",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-05-19",
+      "D-302": "2026-05-21"
+    },
+    "tablet_weight_mg": 97.0,
+    "weight_spec": "95-105",
+    "hardness_kpa": 5.8,
+    "hardness_spec": "5-9",
+    "dissolution_pct": 91.2,
+    "dissolution_spec": ">=85",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "TO-202603-0198",
+    "product": "Topiramate Tablets 100mg",
+    "batch_date": "2026-03-01",
+    "operator": "Patricia Barker",
+    "qa_reviewer": "Laura Tapia",
+    "equipment_used": [
+      "M-204",
+      "P-118"
+    ],
+    "calibration_dates": {
+      "M-204": "2026-02-03",
+      "P-118": "2026-02-26"
+    },
+    "tablet_weight_mg": 100.3,
+    "weight_spec": "98-102",
+    "hardness_kpa": 6.9,
+    "hardness_spec": "6-10",
+    "dissolution_pct": 89.8,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202603-0199",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-03-08",
+    "operator": "Christopher Nelson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "S-410",
+      "D-302"
+    ],
+    "calibration_dates": {
+      "S-410": "2026-03-06",
+      "D-302": "2026-02-11"
+    },
+    "tablet_weight_mg": 203.2,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.9,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 94.3,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  },
+  {
+    "batch_id": "LA-202605-0200",
+    "product": "Lamotrigine Tablets 200mg",
+    "batch_date": "2026-05-10",
+    "operator": "Alicia Stevenson",
+    "qa_reviewer": "Michael Webb",
+    "equipment_used": [
+      "D-302",
+      "M-204"
+    ],
+    "calibration_dates": {
+      "D-302": "2026-05-06",
+      "M-204": "2026-03-23"
+    },
+    "tablet_weight_mg": 197.4,
+    "weight_spec": "195-205",
+    "hardness_kpa": 8.0,
+    "hardness_spec": "7-11",
+    "dissolution_pct": 85.6,
+    "dissolution_spec": ">=80",
+    "qa_signature_present": true,
+    "lot_number_match": true,
+    "exceptions": []
+  }
+]

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Batch Record Review Dashboard — UCB Quality</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f0f4f8;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #1a3a5c;
+      color: white;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .logo { font-size: 18px; font-weight: 700; }
+    .subtitle { font-size: 13px; opacity: 0.6; margin-left: auto; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #4caf50; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 20px 16px; }
+
+    /* Stat cards */
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+    .stat-card {
+      background: white;
+      border-radius: 10px;
+      padding: 16px 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      border-left: 4px solid #1a3a5c;
+    }
+    .stat-card.pass    { border-color: #1D9E75; }
+    .stat-card.flagged { border-color: #EF9F27; }
+    .stat-card.crit     { border-color: #E24B4A; }
+    .stat-val   { font-size: 28px; font-weight: 600; color: #1e293b; }
+    .stat-label { font-size: 12px; color: #64748b; margin-top: 3px; }
+
+    /* Pass rate bar */
+    .pass-bar-card { background: white; border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .pass-bar-label { display: flex; justify-content: space-between; font-size: 13px; color: #64748b; margin-bottom: 8px; }
+    .pass-bar-wrap { background: #f1f5f9; border-radius: 6px; height: 14px; overflow: hidden; }
+    .pass-bar-fill { height: 14px; background: #1D9E75; border-radius: 6px 0 0 6px; }
+
+    .grid-2 { display: grid; grid-template-columns: 1.3fr 1fr; gap: 16px; margin-bottom: 20px; }
+
+    .card { background: white; border-radius: 10px; padding: 16px 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .card-title {
+      font-size: 13px; font-weight: 600; color: #64748b;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #f1f5f9;
+    }
+
+    /* Batch list rows */
+    .batch-row {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 0; border-bottom: 1px solid #f1f5f9;
+      cursor: pointer; transition: background 0.1s;
+    }
+    .batch-row:last-child { border-bottom: none; }
+    .batch-row:hover { background: #f8fafc; border-radius: 6px; padding-left: 6px; }
+    .badge { font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+    .badge-flagged { background: #fce4d6; color: #843c0c; }
+    .badge-clean   { background: #e2efda; color: #27500a; }
+    .batch-id      { font-size: 13px; font-weight: 500; color: #1e293b; font-family: monospace; min-width: 130px; }
+    .batch-product { font-size: 12px; color: #64748b; flex: 1; }
+    .batch-count   { font-size: 12px; font-weight: 500; color: #843c0c; margin-left: auto; }
+
+    /* Detail panel */
+    .detail-panel {
+      background: #f8fafc; border-radius: 8px; padding: 12px 14px;
+      margin-top: 8px; font-size: 13px; color: #334155; line-height: 1.6;
+      display: none; border-left: 3px solid #1a3a5c; white-space: pre-wrap;
+    }
+    .detail-panel.open { display: block; }
+    .detail-panel.loading { color: #94a3b8; font-style: italic; }
+
+    /* Severity / exception bars */
+    .sev-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .sev-label { font-size: 12px; color: #1e293b; min-width: 70px; }
+    .sev-bar-wrap { flex: 1; background: #f1f5f9; border-radius: 4px; height: 8px; }
+    .sev-bar { height: 8px; border-radius: 4px; }
+    .sev-bar.Critical { background: #E24B4A; }
+    .sev-bar.High     { background: #EF9F27; }
+    .sev-bar.Medium   { background: #378ADD; }
+    .sev-val { font-size: 11px; color: #64748b; min-width: 30px; text-align: right; }
+
+    /* Filters */
+    .filters { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+    .filter-select { font-size: 12px; padding: 5px 10px; border: 1px solid #e2e8f0; border-radius: 6px; background: white; color: #1e293b; cursor: pointer; }
+    .filter-btn { font-size: 12px; padding: 5px 12px; border: 1px solid #e2e8f0; border-radius: 6px; background: white; color: #64748b; cursor: pointer; }
+    .filter-btn.active { background: #1a3a5c; color: white; border-color: #1a3a5c; }
+
+    /* Chat */
+    .chat-section { margin-bottom: 20px; }
+    .chat-window { background: white; border-radius: 10px 10px 0 0; padding: 16px 20px; min-height: 140px; max-height: 260px; overflow-y: auto; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .chat-input-area { background: white; border-radius: 0 0 10px 10px; padding: 10px 16px; display: flex; gap: 10px; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.06); border-top: 1px solid #f1f5f9; }
+    .chat-input { flex: 1; border: none; outline: none; font-size: 13px; font-family: inherit; color: #1e293b; }
+    .chat-input::placeholder { color: #94a3b8; }
+    .chat-send { background: #1a3a5c; color: white; border: none; border-radius: 6px; padding: 6px 14px; font-size: 13px; cursor: pointer; }
+    .chat-send:disabled { background: #94a3b8; cursor: not-allowed; }
+    .msg { margin-bottom: 10px; font-size: 13px; line-height: 1.6; }
+    .msg.user .bubble { background: #1a3a5c; color: white; border-radius: 10px 10px 2px 10px; padding: 8px 12px; display: inline-block; max-width: 80%; }
+    .msg.user { text-align: right; }
+    .msg.assistant .bubble { background: #f1f5f9; color: #1e293b; border-radius: 10px 10px 10px 2px; padding: 8px 12px; display: inline-block; max-width: 85%; }
+    .typing-dots { display: flex; gap: 4px; padding: 10px; }
+    .typing-dots span { width: 6px; height: 6px; border-radius: 50%; background: #94a3b8; animation: bounce 1.2s infinite; }
+    .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes bounce { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-5px)} }
+    .example-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+    .chip { font-size: 12px; padding: 4px 10px; background: #f1f5f9; border-radius: 20px; color: #1a3a5c; cursor: pointer; border: 1px solid #e2e8f0; }
+    .chip:hover { background: #1a3a5c; color: white; }
+
+    .disclaimer { text-align: center; font-size: 11px; color: #94a3b8; padding: 8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">UCB — Batch Record Review</div>
+  <div class="dot" id="status-dot"></div>
+  <div class="subtitle">AI-Assisted Quality Review — Manufacturing & Quality</div>
+</header>
+
+<div class="container">
+
+  <!-- Stat cards -->
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-val">{{ total_batches }}</div>
+      <div class="stat-label">Total batches reviewed</div>
+    </div>
+    <div class="stat-card pass">
+      <div class="stat-val">{{ clean_batches }}</div>
+      <div class="stat-label">Passed clean</div>
+    </div>
+    <div class="stat-card flagged">
+      <div class="stat-val">{{ flagged_batches }}</div>
+      <div class="stat-label">Flagged for review</div>
+    </div>
+    <div class="stat-card crit">
+      <div class="stat-val">{{ severity_counts.get('Critical', 0) }}</div>
+      <div class="stat-label">Critical findings</div>
+    </div>
+  </div>
+
+  <!-- Pass rate bar -->
+  <div class="pass-bar-card">
+    <div class="pass-bar-label">
+      <span>Batch pass rate</span>
+      <span>{{ pass_rate }}% passed without exception</span>
+    </div>
+    <div class="pass-bar-wrap">
+      <div class="pass-bar-fill" style="width: {{ pass_rate }}%"></div>
+    </div>
+  </div>
+
+  <!-- Chat assistant -->
+  <div class="chat-section">
+    <div class="card">
+      <div class="card-title">Ask the QA review assistant</div>
+      <div class="example-chips">
+        <span class="chip" onclick="useChip(this)">Which batch had the most findings?</span>
+        <span class="chip" onclick="useChip(this)">What are the most common exception types?</span>
+        <span class="chip" onclick="useChip(this)">How many batches had critical findings?</span>
+        <span class="chip" onclick="useChip(this)">What's the overall batch pass rate?</span>
+      </div>
+      <div class="chat-window" id="chat-window">
+        <div class="msg assistant"><div class="bubble">Hello — I have visibility into all {{ total_batches }} reviewed batches and their findings. Ask me about exception patterns, specific batches, or release recommendations.</div></div>
+      </div>
+      <div class="chat-input-area">
+        <input class="chat-input" id="chat-input" placeholder="Ask about batch findings, exception types, or release decisions..." onkeydown="if(event.key==='Enter') sendChat()"/>
+        <button class="chat-send" id="chat-send" onclick="sendChat()">Ask</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+
+    <!-- Batch list -->
+    <div class="card">
+      <div class="card-title">Batch records</div>
+      <div class="filters">
+        <select class="filter-select" id="product-filter" onchange="loadBatches()">
+          <option value="">All products</option>
+          {% for p in products %}
+          <option value="{{ p }}">{{ p }}</option>
+          {% endfor %}
+        </select>
+        <button class="filter-btn active" onclick="setStatus('', this)">All</button>
+        <button class="filter-btn" onclick="setStatus('flagged', this)">Flagged</button>
+        <button class="filter-btn" onclick="setStatus('clean', this)">Clean</button>
+      </div>
+      <div id="batch-list">
+        {% for b in top_batches %}
+        <div class="batch-row" onclick="showBatchDetail('{{ b.batch_id }}', 'detail-{{ loop.index }}')">
+          <span class="badge badge-flagged">FLAGGED</span>
+          <span class="batch-id">{{ b.batch_id }}</span>
+          <span class="batch-product">{{ b.product }}</span>
+          <span class="batch-count">{{ b.n_findings }} finding{{ 's' if b.n_findings != 1 else '' }}</span>
+        </div>
+        <div class="detail-panel" id="detail-{{ loop.index }}"></div>
+        {% endfor %}
+      </div>
+      <div id="dynamic-batches"></div>
+    </div>
+
+    <!-- Severity & exception breakdown -->
+    <div class="card">
+      <div class="card-title">Findings by severity</div>
+      {% for sev, count in severity_counts.items() %}
+      <div class="sev-row">
+        <span class="sev-label">{{ sev }}</span>
+        <div class="sev-bar-wrap">
+          <div class="sev-bar {{ sev }}" style="width: {{ (count / severity_counts.values() | max * 100) | int }}%"></div>
+        </div>
+        <span class="sev-val">{{ count }}</span>
+      </div>
+      {% endfor %}
+
+      <div class="card-title" style="margin-top:16px">Exception types</div>
+      {% for code, count in exception_counts.items() %}
+      <div class="sev-row">
+        <span class="sev-label" style="min-width:140px;font-size:11px">{{ code }}</span>
+        <div class="sev-bar-wrap">
+          <div class="sev-bar High" style="width: {{ (count / exception_counts.values() | max * 100) | int }}%"></div>
+        </div>
+        <span class="sev-val">{{ count }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+  <div class="disclaimer">
+    All batch records are synthetically generated based on public GMP structure. No real UCB manufacturing data is used.
+    Production deployment requires UCB's internal MES data under GxP-controlled access.
+  </div>
+
+</div>
+
+<script>
+  let activeStatus = "";
+  let detailCounter = 1000;
+
+  function setStatus(status, btn) {
+    activeStatus = status;
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    loadBatches();
+  }
+
+  async function loadBatches() {
+    const product = document.getElementById("product-filter").value;
+    let url = `/batches?`;
+    if (product)      url += `product=${encodeURIComponent(product)}&`;
+    if (activeStatus) url += `status=${activeStatus}&`;
+
+    const r    = await fetch(url);
+    const data = await r.json();
+    const el   = document.getElementById("dynamic-batches");
+
+    if (data.length === 0) {
+      el.innerHTML = '<div style="padding:12px;color:#94a3b8;font-size:13px;">No batches match this filter.</div>';
+      return;
+    }
+
+    el.innerHTML = data.map(b => {
+      detailCounter++;
+      const id = `dyn-${detailCounter}`;
+      return `
+        <div class="batch-row" onclick="showBatchDetail('${b.batch_id}', '${id}')">
+          <span class="badge ${b.flagged ? 'badge-flagged' : 'badge-clean'}">${b.flagged ? 'FLAGGED' : 'CLEAN'}</span>
+          <span class="batch-id">${b.batch_id}</span>
+          <span class="batch-product">${b.product}</span>
+          <span class="batch-count" style="color:#64748b">${b.batch_date}</span>
+        </div>
+        <div class="detail-panel" id="${id}"></div>
+      `;
+    }).join("");
+  }
+
+  async function showBatchDetail(batchId, panelId) {
+    const panel = document.getElementById(panelId);
+    const isOpen = panel.classList.contains("open");
+
+    if (isOpen) {
+      panel.classList.remove("open");
+      return;
+    }
+
+    panel.classList.add("open", "loading");
+    panel.textContent = "Loading batch detail...";
+
+    const r    = await fetch(`/batch/${batchId}`);
+    const data = await r.json();
+
+    panel.classList.remove("loading");
+
+    if (data.review) {
+      panel.textContent = data.review.summary;
+    } else {
+      const rec = data.record;
+      panel.textContent = `Weight: ${rec.tablet_weight_mg}mg (spec ${rec.weight_spec}mg) | Hardness: ${rec.hardness_kpa}kPa (spec ${rec.hardness_spec}kPa) | Dissolution: ${rec.dissolution_pct}% (spec ${rec.dissolution_spec}%) | Operator: ${rec.operator} | QA: ${rec.qa_reviewer}`;
+    }
+  }
+
+  function useChip(el) {
+    document.getElementById("chat-input").value = el.textContent;
+    sendChat();
+  }
+
+  async function sendChat() {
+    const input  = document.getElementById("chat-input");
+    const btn    = document.getElementById("chat-send");
+    const window = document.getElementById("chat-window");
+    const q      = input.value.trim();
+    if (!q) return;
+
+    input.value  = "";
+    btn.disabled = true;
+
+    window.innerHTML += `<div class="msg user"><div class="bubble">${q}</div></div>`;
+    window.innerHTML += `<div class="msg assistant" id="typing"><div class="typing-dots"><span></span><span></span><span></span></div></div>`;
+    window.scrollTop = window.scrollHeight;
+
+    try {
+      const r    = await fetch("/chat", { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({question: q}) });
+      const data = await r.json();
+      document.getElementById("typing").remove();
+      const answer = data.error ? `Error: ${data.error}` : data.answer;
+      window.innerHTML += `<div class="msg assistant"><div class="bubble">${answer}</div></div>`;
+    } catch(e) {
+      document.getElementById("typing").remove();
+      window.innerHTML += `<div class="msg assistant"><div class="bubble">Network error — check the server.</div></div>`;
+    }
+
+    window.scrollTop = window.scrollHeight;
+    btn.disabled = false;
+    input.focus();
+  }
+
+  fetch("/health")
+    .then(r => r.json())
+    .then(() => document.getElementById("status-dot").style.background = "#4caf50")
+    .catch(() => document.getElementById("status-dot").style.background = "#ef4444");
+</script>
+</body>
+</html>
